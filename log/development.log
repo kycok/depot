@@ -1,0 +1,664 @@
+  [4;36;1mSQL (16.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mselect sqlite_version(*)[0m
+  [4;36;1mSQL (94.0ms)[0m   [0;1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [4;35;1mSQL (109.0ms)[0m   [0mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateProducts (20090812125150)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mCREATE TABLE "products" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "description" text, "image_url" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20090812125150')[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("products")[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-12 16:56:54) [GET]
+
+ActionController::RoutingError (No route matches "/recipes" with {:method=>:get}):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2009-08-12 16:57:54) [GET]
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" [0m
+Rendering template within layouts/products
+Rendering products/index
+Completed in 672ms (View: 656, DB: 0) | 200 OK [http://127.0.0.1/products]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-12 16:58:33) [GET]
+
+ActionController::RoutingError (No route matches "/product" with {:method=>:get}):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2009-08-12 16:58:37) [GET]
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" [0m
+Rendering template within layouts/products
+Rendering products/index
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/products]
+
+
+Processing ProductsController#new (for 127.0.0.1 at 2009-08-12 16:58:39) [GET]
+Rendering template within layouts/products
+Rendering products/new
+Completed in 47ms (View: 31, DB: 0) | 200 OK [http://127.0.0.1/products/new]
+
+
+Processing ProductsController#create (for 127.0.0.1 at 2009-08-12 17:13:34) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"bE6wXFd0wFjc2n5/JqRowpHDcmUK0Vi57d33+3TpsAk=", "product"=>{"image_url"=>"", "title"=>"test1", "description"=>"test1 desc"}}
+  [4;36;1mProduct Create (62.0ms)[0m   [0;1mINSERT INTO "products" ("image_url", "updated_at", "title", "description", "created_at") VALUES('', '2009-08-12 13:13:34', 'test1', 'test1 desc', '2009-08-12 13:13:34')[0m
+Redirected to http://127.0.0.1:3000/products/1
+Completed in 453ms (DB: 62) | 302 Found [http://127.0.0.1/products]
+
+
+Processing ProductsController#show (for 127.0.0.1 at 2009-08-12 17:13:35) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+Rendering template within layouts/products
+Rendering products/show
+Completed in 47ms (View: 15, DB: 0) | 200 OK [http://127.0.0.1/products/1]
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2009-08-12 17:14:33) [GET]
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" [0m
+Rendering template within layouts/products
+Rendering products/index
+Completed in 31ms (View: 15, DB: 0) | 200 OK [http://127.0.0.1/products]
+
+
+Processing ProductsController#show (for 127.0.0.1 at 2009-08-12 17:14:36) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+Rendering template within layouts/products
+Rendering products/show
+Completed in 47ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/products/1]
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2009-08-12 17:14:40) [GET]
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" [0m
+Rendering template within layouts/products
+Rendering products/index
+Completed in 32ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/products]
+
+
+Processing ProductsController#edit (for 127.0.0.1 at 2009-08-12 17:14:41) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+Rendering template within layouts/products
+Rendering products/edit
+Completed in 47ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/products/1/edit]
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2009-08-12 17:14:43) [GET]
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" [0m
+Rendering template within layouts/products
+Rendering products/index
+Completed in 32ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/products]
+
+
+Processing ProductsController#edit (for 127.0.0.1 at 2009-08-12 17:45:15) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+Rendering template within layouts/products
+Rendering products/edit
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/products/1/edit]
+
+
+Processing ProductsController#update (for 127.0.0.1 at 2009-08-12 17:45:55) [PUT]
+  Parameters: {"commit"=>"Update", "authenticity_token"=>"bE6wXFd0wFjc2n5/JqRowpHDcmUK0Vi57d33+3TpsAk=", "product"=>{"image_url"=>"/images/test.jpg", "title"=>"test1", "description"=>"<p>Катализасьён</p>"}, "id"=>"1"}
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+  [4;35;1mProduct Update (0.0ms)[0m   [0mUPDATE "products" SET "image_url" = '/images/test.jpg', "description" = '<p>Катализасьён</p>', "updated_at" = '2009-08-12 13:45:55' WHERE "id" = 1[0m
+Redirected to http://127.0.0.1:3000/products/1
+Completed in 125ms (DB: 0) | 302 Found [http://127.0.0.1/products/1]
+
+
+Processing ProductsController#show (for 127.0.0.1 at 2009-08-12 17:45:55) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+Rendering template within layouts/products
+Rendering products/show
+Completed in 31ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/products/1]
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2009-08-12 17:46:01) [GET]
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" [0m
+Rendering template within layouts/products
+Rendering products/index
+Completed in 47ms (View: 15, DB: 0) | 200 OK [http://127.0.0.1/products]
+
+
+Processing ProductsController#edit (for 127.0.0.1 at 2009-08-12 17:46:04) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+Rendering template within layouts/products
+Rendering products/edit
+Completed in 32ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/products/1/edit]
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2009-08-12 17:46:08) [GET]
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" [0m
+Rendering template within layouts/products
+Rendering products/index
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/products]
+
+
+Processing ProductsController#edit (for 127.0.0.1 at 2009-08-12 17:46:17) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+Rendering template within layouts/products
+Rendering products/edit
+Completed in 47ms (View: 15, DB: 0) | 200 OK [http://127.0.0.1/products/1/edit]
+
+
+Processing ProductsController#update (for 127.0.0.1 at 2009-08-12 17:46:22) [PUT]
+  Parameters: {"commit"=>"Update", "authenticity_token"=>"bE6wXFd0wFjc2n5/JqRowpHDcmUK0Vi57d33+3TpsAk=", "product"=>{"image_url"=>"/images/test.jpg", "title"=>"test1", "description"=>"Катализасьён"}, "id"=>"1"}
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+  [4;36;1mProduct Update (0.0ms)[0m   [0;1mUPDATE "products" SET "description" = 'Катализасьён', "updated_at" = '2009-08-12 13:46:22' WHERE "id" = 1[0m
+Redirected to http://127.0.0.1:3000/products/1
+Completed in 141ms (DB: 0) | 302 Found [http://127.0.0.1/products/1]
+
+
+Processing ProductsController#show (for 127.0.0.1 at 2009-08-12 17:46:22) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+Rendering template within layouts/products
+Rendering products/show
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/products/1]
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2009-08-12 17:46:24) [GET]
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" [0m
+Rendering template within layouts/products
+Rendering products/index
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/products]
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2009-08-12 21:01:23) [GET]
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" [0m
+Rendering template within layouts/products
+Rendering products/index
+Completed in 32ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/products]
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2009-08-12 21:01:27) [GET]
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" [0m
+Rendering template within layouts/products
+Rendering products/index
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/products]
+
+
+Processing ProductsController#show (for 127.0.0.1 at 2009-08-12 21:01:29) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+Rendering template within layouts/products
+Rendering products/show
+Completed in 31ms (View: 15, DB: 0) | 200 OK [http://127.0.0.1/products/1]
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2009-08-12 21:01:31) [GET]
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" [0m
+Rendering template within layouts/products
+Rendering products/index
+Completed in 31ms (View: 15, DB: 0) | 200 OK [http://127.0.0.1/products]
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2009-08-12 22:28:27) [GET]
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" [0m
+Rendering template within layouts/products
+Rendering products/index
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/products]
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2009-08-12 22:28:28) [GET]
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" [0m
+Rendering template within layouts/products
+Rendering products/index
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/products]
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2009-08-12 22:28:29) [GET]
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" [0m
+Rendering template within layouts/products
+Rendering products/index
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/products]
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2009-08-12 22:28:29) [GET]
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" [0m
+Rendering template within layouts/products
+Rendering products/index
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/products]
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2009-08-12 22:28:30) [GET]
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" [0m
+Rendering template within layouts/products
+Rendering products/index
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/products]
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2009-08-12 22:28:30) [GET]
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" [0m
+Rendering template within layouts/products
+Rendering products/index
+Completed in 32ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/products]
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2009-08-12 22:28:31) [GET]
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" [0m
+Rendering template within layouts/products
+Rendering products/index
+Completed in 31ms (View: 15, DB: 0) | 200 OK [http://127.0.0.1/products]
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2009-08-12 22:28:31) [GET]
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" [0m
+Rendering template within layouts/products
+Rendering products/index
+Completed in 31ms (View: 15, DB: 0) | 200 OK [http://127.0.0.1/products]
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2009-08-12 22:28:31) [GET]
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" [0m
+Rendering template within layouts/products
+Rendering products/index
+Completed in 15ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/products]
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2009-08-12 22:28:32) [GET]
+  [4;36;1mProduct Load (16.0ms)[0m   [0;1mSELECT * FROM "products" [0m
+Rendering template within layouts/products
+Rendering products/index
+Completed in 78ms (View: 0, DB: 16) | 200 OK [http://127.0.0.1/products]
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2009-08-12 22:28:32) [GET]
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" [0m
+Rendering template within layouts/products
+Rendering products/index
+Completed in 31ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/products]
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2009-08-13 14:21:30) [GET]
+  [4;36;1mProduct Load (15.0ms)[0m   [0;1mSELECT * FROM "products" [0m
+Rendering template within layouts/products
+Rendering products/index
+Completed in 625ms (View: 594, DB: 15) | 200 OK [http://127.0.0.1/products]
+  [4;36;1mSQL (0.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateProducts (20090812125150)
+Migrating to AddPriceToProduct (20090813102240)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (16.0ms)[0m   [0mALTER TABLE "products" ADD "price" decimal[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20090813102240')[0m
+  [4;35;1mSQL (0.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("products")[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateProducts (20090812125150)
+Migrating to AddPriceToProduct (20090813102240)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (16.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("products")[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateProducts (20090812125150)
+Migrating to AddPriceToProduct (20090813102240)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("products")[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateProducts (20090812125150)
+Migrating to AddPriceToProduct (20090813102240)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("products")[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateProducts (20090812125150)
+Migrating to AddPriceToProduct (20090813102240)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("products")[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateProducts (20090812125150)
+Migrating to AddPriceToProduct (20090813102240)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("products")[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateProducts (20090812125150)
+Migrating to AddPriceToProduct (20090813102240)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("products")[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to AddPriceToProduct (20090813102240)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mCREATE TEMPORARY TABLE "altered_products" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "description" text, "image_url" varchar(255), "created_at" datetime, "updated_at" datetime, "price" decimal) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("products")[0m
+  [4;35;1mSQL (15.0ms)[0m   [0mDROP TABLE "products"[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mCREATE TABLE "products" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "description" text, "image_url" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("altered_products")[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mDROP TABLE "altered_products"[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mDELETE FROM schema_migrations WHERE version = '20090813102240'[0m
+  [4;36;1mSQL (16.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("products")[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateProducts (20090812125150)
+Migrating to AddPriceToProduct (20090813102240)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mALTER TABLE "products" ADD "price" decimal(8,2) DEFAULT 0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20090813102240')[0m
+  [4;35;1mSQL (0.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("products")[0m
+
+
+Processing ProductsController#show (for 127.0.0.1 at 2009-08-13 14:46:57) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+Rendering template within layouts/products
+Rendering products/show
+Completed in 47ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/products/1]
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2009-08-13 14:46:59) [GET]
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" [0m
+Rendering template within layouts/products
+Rendering products/index
+Completed in 32ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/products]
+
+
+Processing ProductsController#edit (for 127.0.0.1 at 2009-08-13 14:47:47) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+Rendering template within layouts/products
+Rendering products/edit
+Completed in 32ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/products/1/edit]
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2009-08-13 14:47:52) [GET]
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" [0m
+Rendering template within layouts/products
+Rendering products/index
+Completed in 31ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/products]
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2009-08-13 14:50:39) [GET]
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" [0m
+Rendering template within layouts/products
+Rendering products/index
+Completed in 46ms (View: 31, DB: 0) | 200 OK [http://127.0.0.1/products]
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2009-08-13 14:51:39) [GET]
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" [0m
+Rendering template within layouts/products
+Rendering products/index
+Completed in 32ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/products]
+
+
+Processing ProductsController#show (for 127.0.0.1 at 2009-08-13 14:51:42) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+Rendering template within layouts/products
+Rendering products/show
+Completed in 32ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/products/1]
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2009-08-13 14:51:47) [GET]
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" [0m
+Rendering template within layouts/products
+Rendering products/index
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/products]
+
+
+Processing ProductsController#show (for 127.0.0.1 at 2009-08-13 14:53:46) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+Rendering template within layouts/products
+Rendering products/show
+Completed in 31ms (View: 15, DB: 0) | 200 OK [http://127.0.0.1/products/1]
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2009-08-13 14:53:49) [GET]
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" [0m
+Rendering template within layouts/products
+Rendering products/index
+Completed in 31ms (View: 15, DB: 0) | 200 OK [http://127.0.0.1/products]
+
+
+Processing ProductsController#new (for 127.0.0.1 at 2009-08-13 14:53:52) [GET]
+Rendering template within layouts/products
+Rendering products/new
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/products/new]
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2009-08-13 14:53:54) [GET]
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" [0m
+Rendering template within layouts/products
+Rendering products/index
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/products]
+
+
+Processing ProductsController#new (for 127.0.0.1 at 2009-08-13 14:56:16) [GET]
+Rendering template within layouts/products
+Rendering products/new
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/products/new]
+
+
+Processing ProductsController#create (for 127.0.0.1 at 2009-08-13 14:56:18) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"K/UsCT1f9YGbxkF67IO5ntXA+TGvdRqqOfWr1m5Lp74=", "product"=>{"image_url"=>"", "price"=>"0.0", "title"=>"", "description"=>""}}
+Rendering template within layouts/products
+Rendering products/new
+Completed in 47ms (View: 15, DB: 0) | 200 OK [http://127.0.0.1/products]
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2009-08-13 14:56:25) [GET]
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" [0m
+Rendering template within layouts/products
+Rendering products/index
+Completed in 47ms (View: 15, DB: 0) | 200 OK [http://127.0.0.1/products]
+
+
+Processing ProductsController#new (for 127.0.0.1 at 2009-08-13 15:02:11) [GET]
+Rendering template within layouts/products
+Rendering products/new
+Completed in 32ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/products/new]
+
+
+Processing ProductsController#create (for 127.0.0.1 at 2009-08-13 15:02:20) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"K/UsCT1f9YGbxkF67IO5ntXA+TGvdRqqOfWr1m5Lp74=", "product"=>{"image_url"=>"2", "price"=>"kazel", "title"=>"2", "description"=>"2"}}
+Rendering template within layouts/products
+Rendering products/new
+Completed in 32ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/products]
+
+
+Processing ProductsController#create (for 127.0.0.1 at 2009-08-13 15:04:59) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"K/UsCT1f9YGbxkF67IO5ntXA+TGvdRqqOfWr1m5Lp74=", "product"=>{"image_url"=>"2", "price"=>"0.00001", "title"=>"2", "description"=>"2"}}
+Rendering template within layouts/products
+Rendering products/new
+Completed in 47ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/products]
+
+
+Processing ProductsController#create (for 127.0.0.1 at 2009-08-13 15:05:11) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"K/UsCT1f9YGbxkF67IO5ntXA+TGvdRqqOfWr1m5Lp74=", "product"=>{"image_url"=>"2", "price"=>"doi?", "title"=>"2", "description"=>"2"}}
+Rendering template within layouts/products
+Rendering products/new
+Completed in 31ms (View: 15, DB: 0) | 200 OK [http://127.0.0.1/products]
+
+
+Processing ProductsController#create (for 127.0.0.1 at 2009-08-13 16:21:46) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"K/UsCT1f9YGbxkF67IO5ntXA+TGvdRqqOfWr1m5Lp74=", "product"=>{"image_url"=>"2", "price"=>"doi?", "title"=>"2", "description"=>"2"}}
+  [4;35;1mProduct Exists (0.0ms)[0m   [0mSELECT "products".id FROM "products" WHERE ("products"."title" = '2') LIMIT 1[0m
+Rendering template within layouts/products
+Rendering products/new
+Completed in 78ms (View: 15, DB: 0) | 200 OK [http://127.0.0.1/products]
