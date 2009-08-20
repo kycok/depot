@@ -757,3 +757,53 @@ Processing ProductsController#index (for 127.0.0.1 at 2009-08-20 10:14:43) [GET]
 Rendering template within layouts/products
 Rendering products/index
 Completed in 109ms (View: 94, DB: 0) | 200 OK [http://127.0.0.1/products]
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2009-08-20 10:20:09) [GET]
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" [0m
+Rendering template within layouts/products
+Rendering products/index
+Completed in 140ms (View: 109, DB: 0) | 200 OK [http://127.0.0.1/products]
+
+
+Processing ProductsController#show (for 127.0.0.1 at 2009-08-20 10:20:15) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering template within layouts/products
+Rendering products/show
+Completed in 47ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/products/2]
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2009-08-20 10:20:18) [GET]
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" [0m
+Rendering template within layouts/products
+Rendering products/index
+Completed in 47ms (View: 31, DB: 0) | 200 OK [http://127.0.0.1/products]
+
+
+Processing ProductsController#new (for 127.0.0.1 at 2009-08-20 10:24:55) [GET]
+Rendering template within layouts/products
+Rendering products/new
+Completed in 47ms (View: 15, DB: 0) | 200 OK [http://127.0.0.1/products/new]
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2009-08-20 10:24:59) [GET]
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" [0m
+Rendering template within layouts/products
+Rendering products/index
+Completed in 62ms (View: 31, DB: 0) | 200 OK [http://127.0.0.1/products]
+
+
+Processing ProductsController#edit (for 127.0.0.1 at 2009-08-20 10:25:04) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering template within layouts/products
+Rendering products/edit
+Completed in 63ms (View: 31, DB: 0) | 200 OK [http://127.0.0.1/products/2/edit]
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2009-08-20 10:25:06) [GET]
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" [0m
+Rendering template within layouts/products
+Rendering products/index
+Completed in 32ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/products]
