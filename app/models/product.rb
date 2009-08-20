@@ -8,7 +8,6 @@ validates_format_of :image_url,
                     :message => 'must be a URL for GIF, JPG ' +
                                 'or PNG image.'
 
-
 protected
 
 def price_must_be_at_least_a_cent
