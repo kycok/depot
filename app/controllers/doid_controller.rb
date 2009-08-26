@@ -1,0 +1,3 @@
+class DoidController < ApplicationController
+
+end

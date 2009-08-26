@@ -943,3 +943,2120 @@ Processing StoreController#index (for 127.0.0.1 at 2009-08-20 15:13:08) [GET]
   [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
 Rendering store/index
 Completed in 31ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/store]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2009-08-21 11:32:31) [GET]
+  [4;36;1mProduct Load (31.0ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering store/index
+Completed in 79ms (View: 32, DB: 31) | 200 OK [http://127.0.0.1/store]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2009-08-21 11:32:32) [GET]
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+Rendering store/index
+Completed in 32ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/store]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2009-08-21 11:36:32) [GET]
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering store/index
+Completed in 47ms (View: 31, DB: 0) | 200 OK [http://127.0.0.1/store]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2009-08-21 11:36:34) [GET]
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+Rendering store/index
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/store]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2009-08-21 11:36:35) [GET]
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering store/index
+Completed in 32ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/store]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2009-08-21 11:37:22) [GET]
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+Rendering store/index
+Completed in 31ms (View: 15, DB: 0) | 200 OK [http://127.0.0.1/store]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2009-08-21 11:37:32) [GET]
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering store/index
+Completed in 31ms (View: 15, DB: 0) | 200 OK [http://127.0.0.1/store]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2009-08-21 12:53:59) [GET]
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+Rendering store/index
+Completed in 78ms (View: 47, DB: 0) | 200 OK [http://127.0.0.1/store]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2009-08-21 12:54:01) [GET]
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering store/index
+Completed in 31ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/store]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2009-08-21 15:58:41) [GET]
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 765ms (View: 640, DB: 0) | 200 OK [http://127.0.0.1/store]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2009-08-21 15:59:15) [GET]
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 94ms (View: 79, DB: 0) | 200 OK [http://127.0.0.1/store]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2009-08-21 15:59:16) [GET]
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 32ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/store]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2009-08-21 17:12:12) [GET]
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 32ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/store]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2009-08-21 17:15:12) [GET]
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/store]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2009-08-21 17:16:53) [GET]
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 31ms (View: 15, DB: 0) | 200 OK [http://127.0.0.1/store]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2009-08-21 17:17:01) [GET]
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/store]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2009-08-21 17:20:34) [GET]
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 47ms (View: 31, DB: 0) | 200 OK [http://127.0.0.1/store]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2009-08-21 17:20:36) [GET]
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 47ms (View: 31, DB: 0) | 200 OK [http://127.0.0.1/store]
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2009-08-21 17:20:41) [GET]
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" [0m
+Rendering template within layouts/products
+Rendering products/index
+Completed in 3828ms (View: 3797, DB: 0) | 200 OK [http://127.0.0.1/products]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-21 17:20:54) [GET]
+
+ActionController::RoutingError (No route matches "/recipes" with {:method=>:get}):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-21 17:21:01) [GET]
+
+ActionController::RoutingError (No route matches "/say/" with {:method=>:get}):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2009-08-21 17:21:11) [GET]
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 47ms (View: 31, DB: 0) | 200 OK [http://127.0.0.1/store]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2009-08-21 17:52:40) [GET]
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 47ms (View: 31, DB: 0) | 200 OK [http://127.0.0.1/store]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2009-08-22 18:49:40) [GET]
+  [4;36;1mProduct Load (31.0ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 94ms (View: 47, DB: 31) | 200 OK [http://127.0.0.1/store]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2009-08-23 11:31:05) [GET]
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 328ms (View: 313, DB: 0) | 200 OK [http://127.0.0.1/store]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2009-08-24 15:24:45) [GET]
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 1453ms (View: 1438, DB: 0) | 200 OK [http://127.0.0.1/store]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2009-08-24 15:25:34) [POST]
+  Parameters: {"authenticity_token"=>"WnCFr6BOL7+q7+hZxMPMx1iYRZBKQCiZ8fhRnnakH88="}
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/store]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2009-08-24 15:25:36) [POST]
+  Parameters: {"authenticity_token"=>"WnCFr6BOL7+q7+hZxMPMx1iYRZBKQCiZ8fhRnnakH88="}
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 47ms (View: 15, DB: 0) | 200 OK [http://127.0.0.1/store]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2009-08-24 15:25:37) [POST]
+  Parameters: {"authenticity_token"=>"WnCFr6BOL7+q7+hZxMPMx1iYRZBKQCiZ8fhRnnakH88="}
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 47ms (View: 31, DB: 0) | 200 OK [http://127.0.0.1/store]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2009-08-24 15:25:38) [POST]
+  Parameters: {"authenticity_token"=>"WnCFr6BOL7+q7+hZxMPMx1iYRZBKQCiZ8fhRnnakH88="}
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 47ms (View: 31, DB: 0) | 200 OK [http://127.0.0.1/store]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2009-08-24 15:26:46) [POST]
+  Parameters: {"authenticity_token"=>"WnCFr6BOL7+q7+hZxMPMx1iYRZBKQCiZ8fhRnnakH88="}
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 32ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/store]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2009-08-24 15:26:49) [POST]
+  Parameters: {"authenticity_token"=>"WnCFr6BOL7+q7+hZxMPMx1iYRZBKQCiZ8fhRnnakH88="}
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 47ms (View: 31, DB: 0) | 200 OK [http://127.0.0.1/store]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2009-08-24 15:26:50) [POST]
+  Parameters: {"authenticity_token"=>"WnCFr6BOL7+q7+hZxMPMx1iYRZBKQCiZ8fhRnnakH88="}
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 47ms (View: 31, DB: 0) | 200 OK [http://127.0.0.1/store]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2009-08-24 15:26:51) [POST]
+  Parameters: {"authenticity_token"=>"WnCFr6BOL7+q7+hZxMPMx1iYRZBKQCiZ8fhRnnakH88="}
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/store]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2009-08-24 15:26:51) [POST]
+  Parameters: {"authenticity_token"=>"WnCFr6BOL7+q7+hZxMPMx1iYRZBKQCiZ8fhRnnakH88="}
+  [4;36;1mProduct Load (16.0ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 47ms (View: 16, DB: 16) | 200 OK [http://127.0.0.1/store]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2009-08-24 15:27:43) [POST]
+  Parameters: {"authenticity_token"=>"WnCFr6BOL7+q7+hZxMPMx1iYRZBKQCiZ8fhRnnakH88="}
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 47ms (View: 31, DB: 0) | 200 OK [http://127.0.0.1/store]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2009-08-24 15:28:10) [GET]
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 31ms (View: 15, DB: 0) | 200 OK [http://127.0.0.1/store]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2009-08-24 15:59:50) [GET]
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 31ms (View: 15, DB: 0) | 200 OK [http://127.0.0.1/store]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2009-08-24 15:59:51) [GET]
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/store]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2009-08-24 18:55:55) [GET]
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 156ms (View: 140, DB: 0) | 200 OK [http://127.0.0.1/store]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2009-08-24 18:55:58) [GET]
+  Parameters: {"method"=>"post"}
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 46ms (View: 31, DB: 0) | 200 OK [http://127.0.0.1/store?method=post]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2009-08-24 18:56:02) [GET]
+  Parameters: {"method"=>"post"}
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 32ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/store?method=post]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2009-08-24 18:56:05) [GET]
+  Parameters: {"method"=>"post"}
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 46ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/store?method=post]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2009-08-24 18:57:19) [GET]
+  Parameters: {"method"=>"post"}
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 47ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/store?method=post]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2009-08-24 18:57:34) [GET]
+  Parameters: {"method"=>"post"}
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 47ms (View: 32, DB: 0) | 200 OK [http://127.0.0.1/store?method=post]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2009-08-24 18:57:54) [GET]
+  Parameters: {"method"=>"post"}
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 47ms (View: 32, DB: 0) | 200 OK [http://127.0.0.1/store?method=post]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2009-08-24 18:57:55) [GET]
+  Parameters: {"method"=>"post"}
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 47ms (View: 32, DB: 0) | 200 OK [http://127.0.0.1/store?method=post]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-24 18:58:03) [POST]
+  Parameters: {"authenticity_token"=>"WnCFr6BOL7+q7+hZxMPMx1iYRZBKQCiZ8fhRnnakH88="}
+
+ActionController::RoutingError (No route matches "/doi" with {:method=>:post}):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2009-08-24 18:58:28) [GET]
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 47ms (View: 31, DB: 0) | 200 OK [http://127.0.0.1/store]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2009-08-24 18:58:30) [GET]
+  Parameters: {"method"=>"post"}
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 47ms (View: 31, DB: 0) | 200 OK [http://127.0.0.1/store?method=post]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2009-08-24 18:58:33) [GET]
+  Parameters: {"method"=>"post"}
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 47ms (View: 32, DB: 0) | 200 OK [http://127.0.0.1/store?method=post]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2009-08-24 18:58:37) [POST]
+  Parameters: {"authenticity_token"=>"WnCFr6BOL7+q7+hZxMPMx1iYRZBKQCiZ8fhRnnakH88="}
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 46ms (View: 31, DB: 0) | 200 OK [http://127.0.0.1/store]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2009-08-24 18:58:38) [GET]
+  Parameters: {"method"=>"post"}
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 109ms (View: 31, DB: 0) | 200 OK [http://127.0.0.1/store?method=post]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2009-08-25 00:17:32) [GET]
+  Parameters: {"method"=>"post"}
+  [4;36;1mProduct Load (16.0ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 125ms (View: 94, DB: 16) | 200 OK [http://127.0.0.1/store?method=post]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2009-08-25 00:18:02) [GET]
+  Parameters: {"method"=>"post"}
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+ERROR: compiling _run_erb_app47views47store47index46html46erb RAISED compile error
+J:/work notebook/Users/lex/ruby/proj/depot/app/views/store/index.html.erb:4: syntax error, unexpected ','
+@output_buffer.concat "\t"; @output_buffer.concat(( link_to (image_tag(product.image_url), ,:method => :post) ).to_s); @output_buffer.concat "\n"
+                                                                                            ^
+J:/work notebook/Users/lex/ruby/proj/depot/app/views/store/index.html.erb:4: syntax error, unexpected ')', expecting kEND
+@output_buffer.concat "\t"; @output_buffer.concat(( link_to (image_tag(product.image_url), ,:method => :post) ).to_s); @output_buffer.concat "\n"
+                                                                                                                     ^
+Function body:           def _run_erb_app47views47store47index46html46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<h1>Your Pragmatic Catalog</h1>\n"
+ for product in @products 
+@output_buffer.concat "<div class=\"entry\">\n"
+@output_buffer.concat "\t"; @output_buffer.concat(( link_to (image_tag(product.image_url), ,:method => :post) ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "\t<h3>"; @output_buffer.concat((h product.title ).to_s); @output_buffer.concat "</h3>\n"
+@output_buffer.concat "\t\t"; @output_buffer.concat(( product.description ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "\t\t<div class=\"price-line\">\n"
+@output_buffer.concat "\t\t\t<span class=\"price\">"; @output_buffer.concat(( number_to_currency(product.price)).to_s); @output_buffer.concat "</span>\n"
+@output_buffer.concat "\t\t\t"; @output_buffer.concat(( button_to "Add to Cart" ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "\t\t</div>\n"
+@output_buffer.concat "</div>\n"
+ end ; @output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: J:/work notebook/Users/lex/ruby/proj/depot/app/views/store/index.html.erb:15:in `compile!'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/renderable.rb:61:in `compile'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/renderable.rb:28:in `render'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/template.rb:194:in `render_template'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/base.rb:260:in `render'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/base.rb:343:in `_render_with_layout'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/base.rb:257:in `render'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:1241:in `render_for_file'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:937:in `render_without_benchmark'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:51:in `render'
+C:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+C:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+C:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:51:in `render'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:1317:in `default_render'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:1323:in `perform_action_without_filters'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/filters.rb:617:in `call_filters'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+C:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+C:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+C:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/flash.rb:141:in `perform_action'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:523:in `send'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:523:in `process_without_filters'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/filters.rb:606:in `process'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:391:in `process'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:386:in `call'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/routing/route_set.rb:433:in `call'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:88:in `dispatch'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:111:in `_call'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:82:in `initialize'
+C:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:29:in `call'
+C:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:29:in `call'
+C:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+C:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:9:in `cache'
+C:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:28:in `call'
+C:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+C:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/head.rb:9:in `call'
+C:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/methodoverride.rb:24:in `call'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/params_parser.rb:15:in `call'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/rewindable_input.rb:25:in `call'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/session/cookie_store.rb:93:in `call'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/reloader.rb:9:in `call'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/failsafe.rb:11:in `call'
+C:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+C:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `synchronize'
+C:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:106:in `call'
+C:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.2/lib/rails/rack/static.rb:31:in `call'
+C:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:46:in `call'
+C:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `each'
+C:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `call'
+C:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.2/lib/rails/rack/log_tailer.rb:17:in `call'
+C:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/content_length.rb:13:in `call'
+C:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/chunked.rb:15:in `call'
+C:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:61:in `process'
+C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:159:in `process_client'
+C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `each'
+C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `process_client'
+C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `initialize'
+C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `new'
+C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `initialize'
+C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `new'
+C:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `run'
+C:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:34:in `run'
+C:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.2/lib/commands/server.rb:111
+C:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+C:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+./script/server:3
+-e:2:in `load'
+-e:2
+
+ActionView::TemplateError (compile error
+J:/work notebook/Users/lex/ruby/proj/depot/app/views/store/index.html.erb:4: syntax error, unexpected ','
+@output_buffer.concat "\t"; @output_buffer.concat(( link_to (image_tag(product.image_url), ,:method => :post) ).to_s); @output_buffer.concat "\n"
+                                                                                            ^
+J:/work notebook/Users/lex/ruby/proj/depot/app/views/store/index.html.erb:4: syntax error, unexpected ')', expecting kEND
+@output_buffer.concat "\t"; @output_buffer.concat(( link_to (image_tag(product.image_url), ,:method => :post) ).to_s); @output_buffer.concat "\n"
+                                                                                                                     ^) on line #4 of app/views/store/index.html.erb:
+1: <h1>Your Pragmatic Catalog</h1>
+2: <% for product in @products -%>
+3: <div class="entry">
+4: 	<%= link_to (image_tag(product.image_url), ,:method => :post) %>
+5: 	<h3><%=h product.title %></h3>
+6: 		<%= product.description %>
+7: 		<div class="price-line">
+
+    app/views/store/index.html.erb:15:in `compile!'
+    -e:2:in `load'
+    -e:2
+
+Rendered rescues/_trace (47.0ms)
+Rendered rescues/_request_and_response (16.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2009-08-25 00:18:19) [GET]
+  Parameters: {"method"=>"post"}
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 46ms (View: 31, DB: 0) | 200 OK [http://127.0.0.1/store?method=post]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-25 00:18:24) [POST]
+  Parameters: {"authenticity_token"=>"WnCFr6BOL7+q7+hZxMPMx1iYRZBKQCiZ8fhRnnakH88="}
+
+ActionController::RoutingError (No route matches "/" with {:method=>:post}):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2009-08-25 00:18:32) [GET]
+  Parameters: {"method"=>"post"}
+  [4;35;1mProduct Load (15.0ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 47ms (View: 16, DB: 15) | 200 OK [http://127.0.0.1/store?method=post]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2009-08-25 00:19:26) [GET]
+  Parameters: {"method"=>"post"}
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 47ms (View: 31, DB: 0) | 200 OK [http://127.0.0.1/store?method=post]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2009-08-25 00:19:28) [POST]
+  Parameters: {"authenticity_token"=>"WnCFr6BOL7+q7+hZxMPMx1iYRZBKQCiZ8fhRnnakH88="}
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 47ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/store]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2009-08-25 00:19:29) [POST]
+  Parameters: {"authenticity_token"=>"WnCFr6BOL7+q7+hZxMPMx1iYRZBKQCiZ8fhRnnakH88="}
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/store]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2009-08-25 00:19:38) [POST]
+  Parameters: {"authenticity_token"=>"WnCFr6BOL7+q7+hZxMPMx1iYRZBKQCiZ8fhRnnakH88="}
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 47ms (View: 31, DB: 0) | 200 OK [http://127.0.0.1/store]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2009-08-25 00:19:38) [POST]
+  Parameters: {"authenticity_token"=>"WnCFr6BOL7+q7+hZxMPMx1iYRZBKQCiZ8fhRnnakH88="}
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 110ms (View: 94, DB: 0) | 200 OK [http://127.0.0.1/store]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2009-08-25 00:47:43) [POST]
+  Parameters: {"authenticity_token"=>"WnCFr6BOL7+q7+hZxMPMx1iYRZBKQCiZ8fhRnnakH88="}
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/store]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2009-08-25 00:47:46) [POST]
+  Parameters: {"authenticity_token"=>"WnCFr6BOL7+q7+hZxMPMx1iYRZBKQCiZ8fhRnnakH88="}
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 47ms (View: 31, DB: 0) | 200 OK [http://127.0.0.1/store]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2009-08-25 00:53:59) [GET]
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 531ms (View: 516, DB: 0) | 200 OK [http://127.0.0.1/store]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2009-08-26 12:42:44) [GET]
+  [4;36;1mProduct Load (3.8ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 147ms (View: 124, DB: 4) | 200 OK [http://localhost/store]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2009-08-26 12:42:50) [POST]
+  Parameters: {"authenticity_token"=>"lhOVXzsYH/IOoLdLjbfCr1LfTPB5SEkvbxV5idMHhCY="}
+  [4;35;1mProduct Load (3.5ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 49ms (View: 26, DB: 3) | 200 OK [http://localhost/store]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2009-08-26 12:42:56) [POST]
+  Parameters: {"authenticity_token"=>"lhOVXzsYH/IOoLdLjbfCr1LfTPB5SEkvbxV5idMHhCY="}
+  [4;36;1mProduct Load (2.5ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 115ms (View: 16, DB: 3) | 200 OK [http://localhost/store]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2009-08-26 12:43:02) [POST]
+  Parameters: {"authenticity_token"=>"lhOVXzsYH/IOoLdLjbfCr1LfTPB5SEkvbxV5idMHhCY="}
+  [4;35;1mProduct Load (2.0ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 39ms (View: 21, DB: 2) | 200 OK [http://localhost/store]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-26 12:43:09) [GET]
+
+ActionController::RoutingError (No route matches "/product" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2009-08-26 12:43:13) [GET]
+  [4;36;1mProduct Load (2.7ms)[0m   [0;1mSELECT * FROM "products" [0m
+Rendering template within layouts/products
+Rendering products/index
+Completed in 166ms (View: 143, DB: 3) | 200 OK [http://localhost/products]
+
+
+Processing ProductsController#show (for 127.0.0.1 at 2009-08-26 12:43:18) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mProduct Load (0.7ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering template within layouts/products
+Rendering products/show
+Completed in 61ms (View: 13, DB: 1) | 200 OK [http://localhost/products/2]
+/!\ FAILSAFE /!\  Wed Aug 26 15:51:46 +0400 2009
+  Status: 500 Internal Server Error
+  unknown error
+    c:/ruby/lib/ruby/1.8/dl/import.rb:29:in `initialize'
+    c:/ruby/lib/ruby/1.8/dl/import.rb:29:in `dlopen'
+    c:/ruby/lib/ruby/1.8/dl/import.rb:29:in `dlload'
+    c:/ruby/lib/ruby/1.8/dl/import.rb:27:in `each'
+    c:/ruby/lib/ruby/1.8/dl/import.rb:27:in `dlload'
+    c:/ruby/lib/ruby/gems/1.8/gems/sqlite3-ruby-1.2.5-x86-mswin32/lib/sqlite3/driver/dl/api.rb:31
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:156:in `require'
+    c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:156:in `require'
+    c:/ruby/lib/ruby/gems/1.8/gems/sqlite3-ruby-1.2.5-x86-mswin32/lib/sqlite3/driver/dl/driver.rb:1
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:156:in `require'
+    c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:156:in `require'
+    c:/ruby/lib/ruby/gems/1.8/gems/sqlite3-ruby-1.2.5-x86-mswin32/lib/sqlite3/database.rb:619:in `load_driver'
+    c:/ruby/lib/ruby/gems/1.8/gems/sqlite3-ruby-1.2.5-x86-mswin32/lib/sqlite3/database.rb:617:in `each'
+    c:/ruby/lib/ruby/gems/1.8/gems/sqlite3-ruby-1.2.5-x86-mswin32/lib/sqlite3/database.rb:617:in `load_driver'
+    c:/ruby/lib/ruby/gems/1.8/gems/sqlite3-ruby-1.2.5-x86-mswin32/lib/sqlite3/database.rb:72:in `initialize'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/sqlite3_adapter.rb:13:in `new'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/sqlite3_adapter.rb:13:in `sqlite3_connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    c:/ruby/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:9:in `cache'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:28:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/head.rb:9:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/methodoverride.rb:24:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/params_parser.rb:15:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/rewindable_input.rb:25:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/session/cookie_store.rb:93:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/reloader.rb:9:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/failsafe.rb:11:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `synchronize'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:106:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.2/lib/rails/rack/static.rb:31:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:46:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `each'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.2/lib/rails/rack/log_tailer.rb:17:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/content_length.rb:13:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/chunked.rb:15:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:61:in `process'
+    c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:159:in `process_client'
+    c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `each'
+    c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `process_client'
+    c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+    c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `initialize'
+    c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `new'
+    c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+    c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `initialize'
+    c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `new'
+    c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `run'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:34:in `run'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.2/lib/commands/server.rb:111
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+/!\ FAILSAFE /!\  Wed Aug 26 15:51:50 +0400 2009
+  Status: 500 Internal Server Error
+  unknown error
+    c:/ruby/lib/ruby/1.8/dl/import.rb:29:in `initialize'
+    c:/ruby/lib/ruby/1.8/dl/import.rb:29:in `dlopen'
+    c:/ruby/lib/ruby/1.8/dl/import.rb:29:in `dlload'
+    c:/ruby/lib/ruby/1.8/dl/import.rb:27:in `each'
+    c:/ruby/lib/ruby/1.8/dl/import.rb:27:in `dlload'
+    c:/ruby/lib/ruby/gems/1.8/gems/sqlite3-ruby-1.2.5-x86-mswin32/lib/sqlite3/driver/dl/api.rb:31
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:156:in `require'
+    c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:156:in `require'
+    c:/ruby/lib/ruby/gems/1.8/gems/sqlite3-ruby-1.2.5-x86-mswin32/lib/sqlite3/driver/dl/driver.rb:1
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:156:in `require'
+    c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:156:in `require'
+    c:/ruby/lib/ruby/gems/1.8/gems/sqlite3-ruby-1.2.5-x86-mswin32/lib/sqlite3/database.rb:619:in `load_driver'
+    c:/ruby/lib/ruby/gems/1.8/gems/sqlite3-ruby-1.2.5-x86-mswin32/lib/sqlite3/database.rb:617:in `each'
+    c:/ruby/lib/ruby/gems/1.8/gems/sqlite3-ruby-1.2.5-x86-mswin32/lib/sqlite3/database.rb:617:in `load_driver'
+    c:/ruby/lib/ruby/gems/1.8/gems/sqlite3-ruby-1.2.5-x86-mswin32/lib/sqlite3/database.rb:72:in `initialize'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/sqlite3_adapter.rb:13:in `new'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/sqlite3_adapter.rb:13:in `sqlite3_connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    c:/ruby/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:9:in `cache'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:28:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/head.rb:9:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/methodoverride.rb:24:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/params_parser.rb:15:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/rewindable_input.rb:25:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/session/cookie_store.rb:93:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/reloader.rb:9:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/failsafe.rb:11:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `synchronize'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:106:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.2/lib/rails/rack/static.rb:31:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:46:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `each'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.2/lib/rails/rack/log_tailer.rb:17:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/content_length.rb:13:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/chunked.rb:15:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:61:in `process'
+    c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:159:in `process_client'
+    c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `each'
+    c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `process_client'
+    c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+    c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `initialize'
+    c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `new'
+    c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+    c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `initialize'
+    c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `new'
+    c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `run'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:34:in `run'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.2/lib/commands/server.rb:111
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+/!\ FAILSAFE /!\  Wed Aug 26 15:52:51 +0400 2009
+  Status: 500 Internal Server Error
+  unknown error
+    c:/ruby/lib/ruby/1.8/dl/import.rb:29:in `initialize'
+    c:/ruby/lib/ruby/1.8/dl/import.rb:29:in `dlopen'
+    c:/ruby/lib/ruby/1.8/dl/import.rb:29:in `dlload'
+    c:/ruby/lib/ruby/1.8/dl/import.rb:27:in `each'
+    c:/ruby/lib/ruby/1.8/dl/import.rb:27:in `dlload'
+    c:/ruby/lib/ruby/gems/1.8/gems/sqlite3-ruby-1.2.5-x86-mswin32/lib/sqlite3/driver/dl/api.rb:31
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:156:in `require'
+    c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:156:in `require'
+    c:/ruby/lib/ruby/gems/1.8/gems/sqlite3-ruby-1.2.5-x86-mswin32/lib/sqlite3/driver/dl/driver.rb:1
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:156:in `require'
+    c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:156:in `require'
+    c:/ruby/lib/ruby/gems/1.8/gems/sqlite3-ruby-1.2.5-x86-mswin32/lib/sqlite3/database.rb:619:in `load_driver'
+    c:/ruby/lib/ruby/gems/1.8/gems/sqlite3-ruby-1.2.5-x86-mswin32/lib/sqlite3/database.rb:617:in `each'
+    c:/ruby/lib/ruby/gems/1.8/gems/sqlite3-ruby-1.2.5-x86-mswin32/lib/sqlite3/database.rb:617:in `load_driver'
+    c:/ruby/lib/ruby/gems/1.8/gems/sqlite3-ruby-1.2.5-x86-mswin32/lib/sqlite3/database.rb:72:in `initialize'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/sqlite3_adapter.rb:13:in `new'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/sqlite3_adapter.rb:13:in `sqlite3_connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    c:/ruby/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:9:in `cache'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:28:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/head.rb:9:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/methodoverride.rb:24:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/params_parser.rb:15:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/rewindable_input.rb:25:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/session/cookie_store.rb:93:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/reloader.rb:9:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/failsafe.rb:11:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `synchronize'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:106:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.2/lib/rails/rack/static.rb:31:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:46:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `each'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.2/lib/rails/rack/log_tailer.rb:17:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/content_length.rb:13:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/chunked.rb:15:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:61:in `process'
+    c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:159:in `process_client'
+    c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `each'
+    c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `process_client'
+    c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+    c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `initialize'
+    c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `new'
+    c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+    c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `initialize'
+    c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `new'
+    c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `run'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:34:in `run'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.2/lib/commands/server.rb:111
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+/!\ FAILSAFE /!\  Wed Aug 26 15:55:03 +0400 2009
+  Status: 500 Internal Server Error
+  unknown error
+    c:/ruby/lib/ruby/1.8/dl/import.rb:29:in `initialize'
+    c:/ruby/lib/ruby/1.8/dl/import.rb:29:in `dlopen'
+    c:/ruby/lib/ruby/1.8/dl/import.rb:29:in `dlload'
+    c:/ruby/lib/ruby/1.8/dl/import.rb:27:in `each'
+    c:/ruby/lib/ruby/1.8/dl/import.rb:27:in `dlload'
+    c:/ruby/lib/ruby/gems/1.8/gems/sqlite3-ruby-1.2.5-x86-mswin32/lib/sqlite3/driver/dl/api.rb:31
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:156:in `require'
+    c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:156:in `require'
+    c:/ruby/lib/ruby/gems/1.8/gems/sqlite3-ruby-1.2.5-x86-mswin32/lib/sqlite3/driver/dl/driver.rb:1
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:156:in `require'
+    c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:156:in `require'
+    c:/ruby/lib/ruby/gems/1.8/gems/sqlite3-ruby-1.2.5-x86-mswin32/lib/sqlite3/database.rb:619:in `load_driver'
+    c:/ruby/lib/ruby/gems/1.8/gems/sqlite3-ruby-1.2.5-x86-mswin32/lib/sqlite3/database.rb:617:in `each'
+    c:/ruby/lib/ruby/gems/1.8/gems/sqlite3-ruby-1.2.5-x86-mswin32/lib/sqlite3/database.rb:617:in `load_driver'
+    c:/ruby/lib/ruby/gems/1.8/gems/sqlite3-ruby-1.2.5-x86-mswin32/lib/sqlite3/database.rb:72:in `initialize'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/sqlite3_adapter.rb:13:in `new'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/sqlite3_adapter.rb:13:in `sqlite3_connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    c:/ruby/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:9:in `cache'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:28:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/head.rb:9:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/methodoverride.rb:24:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/params_parser.rb:15:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/rewindable_input.rb:25:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/session/cookie_store.rb:93:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/reloader.rb:9:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/failsafe.rb:11:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `synchronize'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:106:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.2/lib/rails/rack/static.rb:31:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:46:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `each'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.2/lib/rails/rack/log_tailer.rb:17:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/content_length.rb:13:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/chunked.rb:15:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:61:in `process'
+    c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:159:in `process_client'
+    c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `each'
+    c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `process_client'
+    c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+    c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `initialize'
+    c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `new'
+    c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+    c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `initialize'
+    c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `new'
+    c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `run'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:34:in `run'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.2/lib/commands/server.rb:111
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+/!\ FAILSAFE /!\  Wed Aug 26 15:56:15 +0400 2009
+  Status: 500 Internal Server Error
+  unknown error
+    c:/ruby/lib/ruby/1.8/dl/import.rb:29:in `initialize'
+    c:/ruby/lib/ruby/1.8/dl/import.rb:29:in `dlopen'
+    c:/ruby/lib/ruby/1.8/dl/import.rb:29:in `dlload'
+    c:/ruby/lib/ruby/1.8/dl/import.rb:27:in `each'
+    c:/ruby/lib/ruby/1.8/dl/import.rb:27:in `dlload'
+    c:/ruby/lib/ruby/gems/1.8/gems/sqlite3-ruby-1.2.5-x86-mswin32/lib/sqlite3/driver/dl/api.rb:31
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:156:in `require'
+    c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:156:in `require'
+    c:/ruby/lib/ruby/gems/1.8/gems/sqlite3-ruby-1.2.5-x86-mswin32/lib/sqlite3/driver/dl/driver.rb:1
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:156:in `require'
+    c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:156:in `require'
+    c:/ruby/lib/ruby/gems/1.8/gems/sqlite3-ruby-1.2.5-x86-mswin32/lib/sqlite3/database.rb:619:in `load_driver'
+    c:/ruby/lib/ruby/gems/1.8/gems/sqlite3-ruby-1.2.5-x86-mswin32/lib/sqlite3/database.rb:617:in `each'
+    c:/ruby/lib/ruby/gems/1.8/gems/sqlite3-ruby-1.2.5-x86-mswin32/lib/sqlite3/database.rb:617:in `load_driver'
+    c:/ruby/lib/ruby/gems/1.8/gems/sqlite3-ruby-1.2.5-x86-mswin32/lib/sqlite3/database.rb:72:in `initialize'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/sqlite3_adapter.rb:13:in `new'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/sqlite3_adapter.rb:13:in `sqlite3_connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    c:/ruby/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:9:in `cache'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:28:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/head.rb:9:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/methodoverride.rb:24:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/params_parser.rb:15:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/rewindable_input.rb:25:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/session/cookie_store.rb:93:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/reloader.rb:9:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/failsafe.rb:11:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `synchronize'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:106:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.2/lib/rails/rack/static.rb:31:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:46:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `each'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.2/lib/rails/rack/log_tailer.rb:17:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/content_length.rb:13:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/chunked.rb:15:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:61:in `process'
+    c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:159:in `process_client'
+    c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `each'
+    c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `process_client'
+    c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+    c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `initialize'
+    c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `new'
+    c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+    c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `initialize'
+    c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `new'
+    c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `run'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:34:in `run'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.2/lib/commands/server.rb:111
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+
+Processing StoreController#index (for 127.0.0.1 at 2009-08-26 15:56:21) [GET]
+  [4;36;1mProduct Load (16.0ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 407ms (View: 375, DB: 16) | 200 OK [http://127.0.0.1/store]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2009-08-26 15:58:12) [GET]
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 47ms (View: 31, DB: 0) | 200 OK [http://127.0.0.1/store]
+
+
+Processing StoreController#index (for 94.78.241.244 at 2009-08-26 15:59:13) [GET]
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 359ms (View: 343, DB: 0) | 200 OK [http://kycok.kraslan.ru/store]
+
+
+Processing StoreController#index (for 94.78.241.244 at 2009-08-26 15:59:19) [GET]
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 32ms (View: 16, DB: 0) | 200 OK [http://kycok.kraslan.ru/store]
+
+
+Processing StoreController#index (for 94.78.241.244 at 2009-08-26 16:17:13) [GET]
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 32ms (View: 16, DB: 0) | 200 OK [http://kycok.kraslan.ru/store]
+
+
+Processing StoreController#index (for 94.78.241.244 at 2009-08-26 16:38:26) [GET]
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 31ms (View: 15, DB: 0) | 200 OK [http://kycok.kraslan.ru/store]
+
+
+Processing StoreController#index (for 94.78.241.244 at 2009-08-26 16:38:28) [GET]
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 31ms (View: 15, DB: 0) | 200 OK [http://kycok.kraslan.ru/store]
+
+
+Processing StoreController#index (for 94.78.241.244 at 2009-08-26 16:38:28) [GET]
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 31ms (View: 31, DB: 0) | 200 OK [http://kycok.kraslan.ru/store]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2009-08-26 16:39:16) [GET]
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 47ms (View: 32, DB: 0) | 200 OK [http://127.0.0.1/store]
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2009-08-26 16:39:49) [GET]
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" [0m
+Rendering template within layouts/products
+Rendering products/index
+Completed in 203ms (View: 188, DB: 0) | 200 OK [http://127.0.0.1/products]
+
+
+Processing ProductsController#edit (for 127.0.0.1 at 2009-08-26 16:39:52) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering template within layouts/products
+Rendering products/edit
+Completed in 31ms (View: 15, DB: 0) | 200 OK [http://127.0.0.1/products/2/edit]
+
+
+Processing ProductsController#update (for 127.0.0.1 at 2009-08-26 16:40:02) [PUT]
+  Parameters: {"commit"=>"Update", "authenticity_token"=>"FDGmPNKLc0FWWoGvBIqujoaTV1xRiBC9NJ5TUVHZYLQ=", "product"=>{"image_url"=>"/images/auto.jpg", "price"=>"29.95", "title"=>"Pragmatic Project Automastrubation", "description"=>"<p>\r\n       <em>Pragmatic Project Automation</em> shows you how to improve the \r\n       consistency and repeatability of your project's procedures using \r\n       automation to reduce risk and errors.\r\n      </p>\r\n      <p>\r\n        Simply put, we're going to put this thing called a computer to work \r\n        for you doing the mundane (but important) project stuff. That means \r\n        you'll have more time and energy to do the really \r\n        exciting---and difficult---stuff, like writing quality code.\r\n      </p>"}, "id"=>"2"}
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+  [4;35;1mProduct Exists (0.0ms)[0m   [0mSELECT "products".id FROM "products" WHERE ("products"."title" = 'Pragmatic Project Automastrubation' AND "products".id <> 2) LIMIT 1[0m
+  [4;36;1mProduct Update (31.0ms)[0m   [0;1mUPDATE "products" SET "title" = 'Pragmatic Project Automastrubation', "description" = '<p>
+ <em>Pragmatic Project Automation</em> shows you how to improve the 
+ consistency and repeatability of your project''s procedures using 
+ automation to reduce risk and errors.
+ </p>
+ <p>
+ Simply put, we''re going to put this thing called a computer to work 
+ for you doing the mundane (but important) project stuff. That means 
+ you''ll have more time and energy to do the really 
+ exciting---and difficult---stuff, like writing quality code.
+ </p>', "updated_at" = '2009-08-26 12:40:02' WHERE "id" = 2[0m
+Redirected to http://127.0.0.1:3001/products/2
+Completed in 187ms (DB: 31) | 302 Found [http://127.0.0.1/products/2]
+
+
+Processing ProductsController#show (for 127.0.0.1 at 2009-08-26 16:40:02) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering template within layouts/products
+Rendering products/show
+Completed in 32ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/products/2]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2009-08-26 16:40:09) [GET]
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 31ms (View: 15, DB: 0) | 200 OK [http://127.0.0.1/store]
+
+
+Processing StoreController#index (for 94.78.241.244 at 2009-08-26 16:40:14) [GET]
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://kycok.kraslan.ru/store]
+
+
+Processing StoreController#2 (for 94.78.241.244 at 2009-08-26 16:40:31) [GET]
+
+ActionController::UnknownAction (No action responded to 2. Actions: index):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateProducts (20090812125150)
+Migrating to AddPriceToProduct (20090813102240)
+Migrating to AddTestData (20090820060045)
+Migrating to CreateSessions (20090826123823)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (16.0ms)[0m   [0mCREATE TABLE "sessions" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "session_id" varchar(255) NOT NULL, "data" text, "created_at" datetime, "updated_at" datetime) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mCREATE INDEX "index_sessions_on_session_id" ON "sessions" ("session_id")[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mCREATE INDEX "index_sessions_on_updated_at" ON "sessions" ("updated_at")[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20090826123823')[0m
+  [4;35;1mSQL (0.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (15.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("products")[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("sessions")[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_info('index_sessions_on_updated_at')[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_info('index_sessions_on_session_id')[0m
+
+
+Processing StoreController#index (for 94.78.241.244 at 2009-08-26 16:52:45) [GET]
+  [4;36;1mProduct Load (16.0ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 32ms (View: 16, DB: 16) | 200 OK [http://kycok.kraslan.ru/store]
+
+
+Processing StoreController#index (for 94.78.241.244 at 2009-08-26 16:52:47) [GET]
+  [4;35;1mProduct Load (16.0ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 46ms (View: 15, DB: 16) | 200 OK [http://kycok.kraslan.ru/store]
+
+
+Processing StoreController#index (for 94.78.241.244 at 2009-08-26 16:52:54) [GET]
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 47ms (View: 31, DB: 0) | 200 OK [http://kycok.kraslan.ru/store]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2009-08-26 17:17:37) [GET]
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 31ms (View: 15, DB: 0) | 200 OK [http://127.0.0.1/store]
+
+
+Processing StoreController#index (for 94.78.241.244 at 2009-08-26 17:17:43) [GET]
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://kycok.kraslan.ru/store]
+
+
+Processing StoreController#index (for 94.78.241.244 at 2009-08-26 17:17:44) [GET]
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 32ms (View: 16, DB: 0) | 200 OK [http://kycok.kraslan.ru/store]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2009-08-26 17:20:25) [GET]
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 31ms (View: 15, DB: 0) | 200 OK [http://127.0.0.1/store]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from J:/work notebook/Users/lex/ruby/proj/depot/app/controllers/application_controller.rb:7)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2009-08-26 17:22:54) [GET]
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 47ms (View: 31, DB: 0) | 200 OK [http://127.0.0.1/store]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from J:/work notebook/Users/lex/ruby/proj/depot/app/controllers/application_controller.rb:7)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2009-08-26 17:23:48) [GET]
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 578ms (View: 563, DB: 0) | 200 OK [http://127.0.0.1/store]
+
+
+Processing StoreController#index (for 94.78.241.244 at 2009-08-26 17:26:28) [GET]
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 500ms (View: 485, DB: 0) | 200 OK [http://kycok.kraslan.ru/store]
+
+
+Processing StoreController#index (for 94.78.241.244 at 2009-08-26 17:26:40) [GET]
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 94ms (View: 79, DB: 0) | 200 OK [http://kycok.kraslan.ru/store]
+
+
+Processing StoreController#index (for 94.78.241.244 at 2009-08-26 17:26:41) [GET]
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 47ms (View: 32, DB: 0) | 200 OK [http://kycok.kraslan.ru/store]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2009-08-26 17:27:49) [GET]
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 47ms (View: 31, DB: 0) | 200 OK [http://127.0.0.1/store]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2009-08-26 17:27:50) [GET]
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/store]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2009-08-26 17:28:28) [GET]
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 47ms (View: 31, DB: 0) | 200 OK [http://127.0.0.1/store]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2009-08-26 17:30:53) [GET]
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/store]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2009-08-26 17:31:42) [GET]
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 94ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/store]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2009-08-26 17:31:43) [GET]
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 47ms (View: 31, DB: 0) | 200 OK [http://127.0.0.1/store]
+
+
+Processing StoreController#index (for 94.78.241.244 at 2009-08-26 17:32:07) [GET]
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://kycok.kraslan.ru/store]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2009-08-26 17:35:12) [GET]
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 46ms (View: 31, DB: 0) | 200 OK [http://127.0.0.1/store]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2009-08-26 17:55:50) [GET]
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 47ms (View: 31, DB: 0) | 200 OK [http://127.0.0.1/store]
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2009-08-26 17:55:59) [POST]
+  Parameters: {"authenticity_token"=>"R1uihbmrJFa/MY1wEjavbm6hOTrDXX5EVovGhXHykvU=", "id"=>"3"}
+
+ActionController::UnknownAction (No action responded to add_to_cart. Actions: index):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2009-08-26 17:56:06) [GET]
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 47ms (View: 31, DB: 0) | 200 OK [http://127.0.0.1/store]
+
+
+Processing StoreController#index (for 94.78.241.244 at 2009-08-26 17:56:10) [GET]
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 32ms (View: 16, DB: 0) | 200 OK [http://kycok.kraslan.ru/store]
+
+
+Processing StoreController#add_to_cart (for 94.78.241.244 at 2009-08-26 17:56:16) [POST]
+  Parameters: {"authenticity_token"=>"XnUFJc1xls9cbfcds0l3BhVFY4Vmg6fhCvggR7C2Q3s=", "id"=>"2"}
+
+ActionController::UnknownAction (No action responded to add_to_cart. Actions: index):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2009-08-26 17:58:20) [POST]
+  Parameters: {"authenticity_token"=>"R1uihbmrJFa/MY1wEjavbm6hOTrDXX5EVovGhXHykvU=", "id"=>"2"}
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+
+ActionView::MissingTemplate (Missing template store/add_to_cart.erb in view path app/views):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2009-08-26 17:58:22) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+
+ActionView::MissingTemplate (Missing template store/add_to_cart.erb in view path app/views):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2009-08-26 17:58:24) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+
+ActionView::MissingTemplate (Missing template store/add_to_cart.erb in view path app/views):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2009-08-26 18:01:27) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering template within layouts/store
+Rendering store/add_to_cart
+Completed in 47ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/store/add_to_cart/2]
+
+
+Processing StoreController#add_to_cart (for 94.78.241.244 at 2009-08-26 18:01:51) [POST]
+  Parameters: {"authenticity_token"=>"XnUFJc1xls9cbfcds0l3BhVFY4Vmg6fhCvggR7C2Q3s=", "id"=>"2"}
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering template within layouts/store
+Rendering store/add_to_cart
+Completed in 46ms (View: 15, DB: 0) | 200 OK [http://kycok.kraslan.ru/store/add_to_cart/2]
+
+
+Processing StoreController#add_to_cart (for 94.78.241.244 at 2009-08-26 18:01:58) [POST]
+  Parameters: {"authenticity_token"=>"XnUFJc1xls9cbfcds0l3BhVFY4Vmg6fhCvggR7C2Q3s=", "id"=>"2"}
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering template within layouts/store
+Rendering store/add_to_cart
+Completed in 31ms (View: 15, DB: 0) | 200 OK [http://kycok.kraslan.ru/store/add_to_cart/2]
+
+
+Processing StoreController#index (for 94.78.241.244 at 2009-08-26 18:02:04) [GET]
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 32ms (View: 16, DB: 0) | 200 OK [http://kycok.kraslan.ru/store/]
+
+
+Processing StoreController#index (for 95.188.93.181 at 2009-08-26 18:02:27) [GET]
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 47ms (View: 32, DB: 0) | 200 OK [http://kycok.kraslan.ru/store/]
+
+
+Processing StoreController#add_to_cart (for 95.188.93.181 at 2009-08-26 18:02:56) [POST]
+  Parameters: {"authenticity_token"=>"FMlP2cGXlUSkCeEE1AJDuuDB95eblsEzagoQz46AIBs=", "id"=>"2"}
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering template within layouts/store
+Rendering store/add_to_cart
+Completed in 32ms (View: 0, DB: 0) | 200 OK [http://kycok.kraslan.ru/store/add_to_cart/2]
+
+
+Processing StoreController#index (for 95.188.93.181 at 2009-08-26 18:03:12) [POST]
+  Parameters: {"authenticity_token"=>"FMlP2cGXlUSkCeEE1AJDuuDB95eblsEzagoQz46AIBs="}
+  [4;35;1mProduct Load (15.0ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 31ms (View: 16, DB: 15) | 200 OK [http://kycok.kraslan.ru/store]
+
+
+Processing StoreController#index (for 95.188.93.181 at 2009-08-26 18:03:18) [POST]
+  Parameters: {"authenticity_token"=>"FMlP2cGXlUSkCeEE1AJDuuDB95eblsEzagoQz46AIBs="}
+  [4;36;1mProduct Load (16.0ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 31ms (View: 15, DB: 16) | 200 OK [http://kycok.kraslan.ru/store]
+
+
+Processing StoreController#add_to_cart (for 94.78.241.244 at 2009-08-26 18:03:24) [POST]
+  Parameters: {"authenticity_token"=>"XnUFJc1xls9cbfcds0l3BhVFY4Vmg6fhCvggR7C2Q3s=", "id"=>"2"}
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering template within layouts/store
+Rendering store/add_to_cart
+Completed in 32ms (View: 16, DB: 0) | 200 OK [http://kycok.kraslan.ru/store/add_to_cart/2]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2009-08-26 18:03:55) [GET]
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/store]
+
+
+Processing ApplicationController#index (for 95.188.93.181 at 2009-08-26 18:04:56) [GET]
+
+ActionController::RoutingError (No route matches "/doid" with {:method=>:get}):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-26 18:08:04) [GET]
+
+ActionController::RoutingError (No route matches "/doid" with {:method=>:get}):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-26 18:08:05) [GET]
+
+ActionController::RoutingError (No route matches "/doid" with {:method=>:get}):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-26 18:08:06) [GET]
+
+ActionController::RoutingError (No route matches "/doid" with {:method=>:get}):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 94.78.241.244 at 2009-08-26 18:08:11) [GET]
+
+ActionController::RoutingError (No route matches "/doid" with {:method=>:get}):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 94.78.241.244 at 2009-08-26 18:08:14) [GET]
+
+ActionController::RoutingError (No route matches "/doid" with {:method=>:get}):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 94.78.241.244 at 2009-08-26 18:08:15) [GET]
+
+ActionController::RoutingError (No route matches "/doid" with {:method=>:get}):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 94.78.241.244 at 2009-08-26 18:08:15) [GET]
+
+ActionController::RoutingError (No route matches "/doid" with {:method=>:get}):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 94.78.241.244 at 2009-08-26 18:08:16) [GET]
+
+ActionController::RoutingError (No route matches "/doid" with {:method=>:get}):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 94.78.241.244 at 2009-08-26 18:08:16) [GET]
+
+ActionController::RoutingError (No route matches "/doid" with {:method=>:get}):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 94.78.241.244 at 2009-08-26 18:08:16) [GET]
+
+ActionController::RoutingError (No route matches "/doid" with {:method=>:get}):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 94.78.241.244 at 2009-08-26 18:08:17) [GET]
+
+ActionController::RoutingError (No route matches "/doid" with {:method=>:get}):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 94.78.241.244 at 2009-08-26 18:08:20) [GET]
+
+ActionController::RoutingError (No route matches "/doid" with {:method=>:get}):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 94.78.241.244 at 2009-08-26 18:09:28) [GET]
+
+ActionController::RoutingError (No route matches "/doid" with {:method=>:get}):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 94.78.241.244 at 2009-08-26 18:09:31) [GET]
+
+ActionController::RoutingError (No route matches "/doid" with {:method=>:get}):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 94.78.241.244 at 2009-08-26 18:09:32) [GET]
+
+ActionController::RoutingError (No route matches "/doid" with {:method=>:get}):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 94.78.241.244 at 2009-08-26 18:09:32) [GET]
+
+ActionController::RoutingError (No route matches "/doid" with {:method=>:get}):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 94.78.241.244 at 2009-08-26 18:09:34) [GET]
+
+ActionController::RoutingError (No route matches "/doid" with {:method=>:get}):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 94.78.241.244 at 2009-08-26 18:09:34) [GET]
+
+ActionController::RoutingError (No route matches "/doid" with {:method=>:get}):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 94.78.241.244 at 2009-08-26 18:10:31) [GET]
+
+ActionController::RoutingError (No route matches "/doid" with {:method=>:get}):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 94.78.241.244 at 2009-08-26 18:10:32) [GET]
+
+ActionController::RoutingError (No route matches "/doid" with {:method=>:get}):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 94.78.241.244 at 2009-08-26 18:10:33) [GET]
+
+ActionController::RoutingError (No route matches "/doid" with {:method=>:get}):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 94.78.241.244 at 2009-08-26 18:10:33) [GET]
+
+ActionController::RoutingError (No route matches "/doid" with {:method=>:get}):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-26 18:11:55) [GET]
+
+ActionController::RoutingError (No route matches "/doid" with {:method=>:get}):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-26 18:11:56) [GET]
+
+ActionController::RoutingError (No route matches "/doid" with {:method=>:get}):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 94.78.241.244 at 2009-08-26 19:32:13) [GET]
+
+ActionController::RoutingError (No route matches "/doid" with {:method=>:get}):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-26 19:34:00) [GET]
+
+ActionController::RoutingError (No route matches "/doid" with {:method=>:get}):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-26 19:35:59) [GET]
+
+ActionController::RoutingError (No route matches "/doid" with {:method=>:get}):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-26 19:38:45) [GET]
+
+ActionController::RoutingError (No route matches "/doid" with {:method=>:get}):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-26 19:38:46) [GET]
+
+ActionController::RoutingError (No route matches "/doid" with {:method=>:get}):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-26 19:38:46) [GET]
+
+ActionController::RoutingError (No route matches "/doid" with {:method=>:get}):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-26 19:38:50) [GET]
+
+ActionController::RoutingError (No route matches "/doid/index" with {:method=>:get}):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-26 19:38:53) [GET]
+
+ActionController::RoutingError (No route matches "/doid/index" with {:method=>:get}):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-26 19:46:33) [GET]
+
+ActionController::RoutingError (No route matches "/doid/index" with {:method=>:get}):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-26 19:46:34) [GET]
+
+ActionController::RoutingError (No route matches "/doid/index" with {:method=>:get}):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-26 19:46:35) [GET]
+
+ActionController::RoutingError (No route matches "/doid/index" with {:method=>:get}):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing DoidController#show (for 127.0.0.1 at 2009-08-26 19:53:43) [GET]
+  Parameters: {"id"=>"index"}
+
+ActionController::UnknownAction (No action responded to show. Actions: index):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing DoidController#show (for 127.0.0.1 at 2009-08-26 19:54:19) [GET]
+  Parameters: {"id"=>"index"}
+
+ActionView::MissingTemplate (Missing template doid/show.erb in view path app/views):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing DoidController#show (for 127.0.0.1 at 2009-08-26 19:55:04) [GET]
+  Parameters: {"id"=>"index"}
+Rendering doid/show
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/doid/index]
+
+
+Processing DoidController#show (for 127.0.0.1 at 2009-08-26 19:55:36) [GET]
+  Parameters: {"id"=>"index"}
+Rendering doid/show
+Completed in 15ms (View: 15, DB: 0) | 200 OK [http://127.0.0.1/doid/index]
+
+
+Processing DoidController#show (for 127.0.0.1 at 2009-08-26 19:55:54) [GET]
+  Parameters: {"id"=>"index"}
+Rendering doid/show
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/doid/index]
+
+
+Processing DoidController#show (for 127.0.0.1 at 2009-08-26 19:55:55) [GET]
+  Parameters: {"id"=>"index"}
+Rendering doid/show
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/doid/index]
+
+
+Processing DoidController#index (for 127.0.0.1 at 2009-08-26 19:55:58) [GET]
+
+Errno::ENOENT (No such file or directory - J:/work notebook/Users/lex/ruby/proj/depot/app/views/doid/index.html.erb):
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (125.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing DoidController#index (for 127.0.0.1 at 2009-08-26 19:56:00) [GET]
+
+Errno::ENOENT (No such file or directory - J:/work notebook/Users/lex/ruby/proj/depot/app/views/doid/index.html.erb):
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (47.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing DoidController#index (for 127.0.0.1 at 2009-08-26 19:56:37) [GET]
+Rendering doid/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/doid/]
+
+
+Processing DoidController#index (for 127.0.0.1 at 2009-08-26 19:57:32) [GET]
+Rendering doid/index
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/doid/]
+
+
+Processing DoidController#index (for 127.0.0.1 at 2009-08-26 19:57:34) [GET]
+Rendering doid/index
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/doid/]
+
+
+Processing DoidController#index (for 127.0.0.1 at 2009-08-26 19:57:54) [GET]
+Rendering doid/index
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/doid/]
+
+
+Processing DoidController#index (for 127.0.0.1 at 2009-08-26 19:57:56) [GET]
+Rendering doid/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/doid/]
+
+
+Processing DoidController#index (for 127.0.0.1 at 2009-08-26 19:57:57) [GET]
+Rendering doid/index
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/doid/]
+
+
+Processing DoidController#index (for 127.0.0.1 at 2009-08-26 19:57:58) [GET]
+Rendering doid/index
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/doid/]
+
+
+Processing DoidController#index (for 127.0.0.1 at 2009-08-26 19:57:59) [GET]
+Rendering doid/index
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/doid/]
+
+
+Processing DoidController#index (for 127.0.0.1 at 2009-08-26 19:58:00) [GET]
+Rendering doid/index
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/doid/]
+
+
+Processing DoidController#index (for 127.0.0.1 at 2009-08-26 19:58:00) [GET]
+Rendering doid/index
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/doid/]
+
+
+Processing DoidController#index (for 127.0.0.1 at 2009-08-26 19:58:01) [GET]
+Rendering doid/index
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/doid/]
+
+
+Processing DoidController#index (for 127.0.0.1 at 2009-08-26 19:58:07) [GET]
+Rendering doid/index
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/doid/index]
+
+
+Processing DoidController#index (for 127.0.0.1 at 2009-08-26 19:58:12) [GET]
+Rendering doid/index
+Completed in 15ms (View: 15, DB: 0) | 200 OK [http://127.0.0.1/doid/]
+
+
+Processing DoidController#show (for 127.0.0.1 at 2009-08-26 19:58:25) [GET]
+Rendering doid/show
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/doid/show]
+
+
+Processing DoidController#show (for 127.0.0.1 at 2009-08-26 19:58:28) [GET]
+Rendering doid/show
+Completed in 15ms (View: 15, DB: 0) | 200 OK [http://127.0.0.1/doid/show]
+
+
+Processing DoidController#index (for 127.0.0.1 at 2009-08-26 19:58:55) [GET]
+Rendering doid/index
+Completed in 15ms (View: 15, DB: 0) | 200 OK [http://127.0.0.1/doid/]
+
+
+Processing DoidController#index (for 127.0.0.1 at 2009-08-26 19:58:58) [GET]
+Rendering doid/index
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/doid/]
+
+
+Processing DoidController#show (for 127.0.0.1 at 2009-08-26 19:59:04) [GET]
+Rendering doid/show
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/doid/show]
+
+
+Processing DoidController#show (for 127.0.0.1 at 2009-08-26 19:59:06) [GET]
+Rendering doid/show
+Completed in 15ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/doid/show]
+
+
+Processing DoidController#show (for 127.0.0.1 at 2009-08-26 19:59:08) [GET]
+Rendering doid/show
+Completed in 15ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/doid/show]
+
+
+Processing DoidController#show (for 127.0.0.1 at 2009-08-26 19:59:30) [GET]
+Rendering doid/show
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/doid/show]
+
+
+Processing DoidController#show (for 127.0.0.1 at 2009-08-26 19:59:32) [GET]
+Rendering doid/show
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/doid/show]
+
+
+Processing DoidController#show (for 127.0.0.1 at 2009-08-26 19:59:37) [GET]
+Rendering doid/show
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/doid/show]
+
+
+Processing DoidController#index (for 127.0.0.1 at 2009-08-26 19:59:40) [GET]
+Rendering doid/index
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/doid/]
+
+
+Processing DoidController#index (for 127.0.0.1 at 2009-08-26 19:59:42) [GET]
+Rendering doid/index
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/doid/]
+
+
+Processing DoidController#index (for 127.0.0.1 at 2009-08-26 19:59:43) [GET]
+Rendering doid/index
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/doid/]
+
+
+Processing DoidController#index (for 127.0.0.1 at 2009-08-26 19:59:45) [GET]
+Rendering doid/index
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/doid/]
+
+
+Processing DoidController#show (for 127.0.0.1 at 2009-08-26 20:00:51) [GET]
+Rendering doid/show
+Completed in 15ms (View: 15, DB: 0) | 200 OK [http://127.0.0.1/doid/show]
+
+
+Processing DoidController#index (for 127.0.0.1 at 2009-08-26 20:00:51) [GET]
+Rendering doid/index
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/doid/]
+
+
+Processing DoidController#index (for 127.0.0.1 at 2009-08-26 20:00:51) [GET]
+Rendering doid/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/doid/]
+
+
+Processing DoidController#index (for 127.0.0.1 at 2009-08-26 20:00:55) [GET]
+Rendering doid/index
+Completed in 15ms (View: 15, DB: 0) | 200 OK [http://127.0.0.1/doid/]
+
+
+Processing DoidController#index (for 127.0.0.1 at 2009-08-26 20:00:57) [GET]
+Rendering doid/index
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/doid/]
+
+
+Processing DoidController#index (for 127.0.0.1 at 2009-08-26 20:01:00) [GET]
+Rendering doid/index
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/doid/]
+
+
+Processing DoidController#index (for 127.0.0.1 at 2009-08-26 20:02:09) [GET]
+Rendering doid/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/doid/]
+
+
+Processing DoidController#index (for 127.0.0.1 at 2009-08-26 20:02:12) [GET]
+Rendering doid/index
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/doid/]
+
+
+Processing DoidController#index (for 127.0.0.1 at 2009-08-26 20:02:43) [GET]
+Rendering doid/index
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/doid/]
+
+
+Processing DoidController#index (for 127.0.0.1 at 2009-08-26 20:02:47) [GET]
+Rendering doid/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/doid/]
+
+
+Processing DoidController#index (for 127.0.0.1 at 2009-08-26 20:03:20) [GET]
+Rendering doid/index
+Completed in 78ms (View: 78, DB: 0) | 200 OK [http://127.0.0.1/doid/]
+
+
+Processing DoidController#index (for 127.0.0.1 at 2009-08-26 20:03:25) [GET]
+Rendering doid/index
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/doid/]
+
+
+Processing DoidController#index (for 94.78.241.244 at 2009-08-26 20:05:22) [GET]
+Rendering doid/index
+Completed in 15ms (View: 0, DB: 0) | 200 OK [http://kycok.kraslan.ru/doid/]
+
+
+Processing DoidController#index (for 127.0.0.1 at 2009-08-26 20:08:25) [GET]
+Rendering doid/index
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/doid/]
+
+
+Processing DoidController#index (for 94.78.241.244 at 2009-08-26 20:10:17) [GET]
+Rendering doid/index
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://kycok.kraslan.ru/doid]
+
+
+Processing DoidController#index (for 127.0.0.1 at 2009-08-26 20:17:47) [GET]
+Rendering doid/index
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/doid/]
+
+
+Processing DoidController#index (for 127.0.0.1 at 2009-08-26 20:19:27) [GET]
+Rendering doid/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/doid/]
+
+
+Processing DoidController#index (for 127.0.0.1 at 2009-08-26 22:11:25) [GET]
+Rendering doid/index
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/doid/]
