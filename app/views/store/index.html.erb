@@ -1,3 +1,6 @@
+<% if session[:counter] >5 %>
+<div id="notice"><%= pluralize(session[:counter], 'time', plural = nil)   %></div>
+<%end%>
 <h1>Your Pragmatic Cataanalog</h1>
 <% for product in @products -%>
 <div class="entry">

@@ -3060,3 +3060,1332 @@ Completed in 16ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/doid/]
 Processing DoidController#index (for 127.0.0.1 at 2009-08-26 22:11:25) [GET]
 Rendering doid/index
 Completed in 16ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/doid/]
+
+
+Processing DoidController#index (for 195.112.227.234 at 2009-08-26 23:23:00) [GET]
+Rendering doid/index
+Completed in 15ms (View: 15, DB: 0) | 200 OK [http://kycok.kraslan.ru/doid/]
+
+
+Processing DoidController#index (for 94.78.241.244 at 2009-08-27 00:38:51) [GET]
+Rendering doid/index
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://kycok.kraslan.ru/doid]
+
+
+Processing DoidController#index (for 94.78.241.244 at 2009-08-27 00:38:54) [GET]
+Rendering doid/index
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://kycok.kraslan.ru/doid]
+
+
+Processing DoidController#index (for 94.78.241.244 at 2009-08-27 00:38:55) [GET]
+Rendering doid/index
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://kycok.kraslan.ru/doid]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2009-08-27 10:25:37) [GET]
+  [4;36;1mProduct Load (1.7ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 231ms (View: 199, DB: 3) | 200 OK [http://localhost/store]
+
+
+Processing DoidController#index (for 127.0.0.1 at 2009-08-27 10:25:43) [GET]
+Rendering doid/index
+Completed in 60ms (View: 57, DB: 0) | 200 OK [http://localhost/doid]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2009-08-27 13:50:14) [GET]
+  [4;36;1mProduct Load (3.2ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 268ms (View: 229, DB: 4) | 200 OK [http://localhost/store]
+
+
+Processing DoidController#index (for 127.0.0.1 at 2009-08-27 13:50:26) [GET]
+Rendering doid/index
+Completed in 53ms (View: 50, DB: 0) | 200 OK [http://localhost/doid]
+
+
+Processing DoidController#index (for 127.0.0.1 at 2009-08-27 15:06:16) [GET]
+Rendering doid/index
+Completed in 32ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/doid/]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2009-08-27 15:07:02) [GET]
+  [4;36;1mProduct Load (15.0ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 609ms (View: 578, DB: 15) | 200 OK [http://127.0.0.1/store]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2009-08-27 15:49:46) [GET]
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 93ms (View: 78, DB: 0) | 200 OK [http://127.0.0.1/store]
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2009-08-27 15:50:11) [POST]
+  Parameters: {"authenticity_token"=>"Pab06WI4XANuTV2w6RwM+AlIShTOSeSYQt9i3uAI2Rs=", "id"=>"2"}
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering template within layouts/store
+Rendering store/add_to_cart
+Completed in 62ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/store/add_to_cart/2]
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2009-08-27 15:50:19) [POST]
+  Parameters: {"authenticity_token"=>"Pab06WI4XANuTV2w6RwM+AlIShTOSeSYQt9i3uAI2Rs=", "id"=>"2"}
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering template within layouts/store
+Rendering store/add_to_cart
+Completed in 31ms (View: 15, DB: 0) | 200 OK [http://127.0.0.1/store/add_to_cart/2]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2009-08-27 15:50:26) [GET]
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 62ms (View: 47, DB: 0) | 200 OK [http://127.0.0.1/store]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2009-08-27 15:50:27) [GET]
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 63ms (View: 47, DB: 0) | 200 OK [http://127.0.0.1/store]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2009-08-27 15:50:30) [GET]
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 125ms (View: 47, DB: 0) | 200 OK [http://127.0.0.1/store]
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2009-08-27 15:50:34) [POST]
+  Parameters: {"authenticity_token"=>"Pab06WI4XANuTV2w6RwM+AlIShTOSeSYQt9i3uAI2Rs=", "id"=>"3"}
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 3) [0m
+Rendering template within layouts/store
+Rendering store/add_to_cart
+Completed in 47ms (View: 16, DB: 16) | 200 OK [http://127.0.0.1/store/add_to_cart/3]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2009-08-27 15:50:42) [GET]
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 78ms (View: 32, DB: 0) | 200 OK [http://127.0.0.1/store]
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2009-08-27 16:48:30) [POST]
+  Parameters: {"authenticity_token"=>"Pab06WI4XANuTV2w6RwM+AlIShTOSeSYQt9i3uAI2Rs=", "id"=>"2"}
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering template within layouts/store
+Rendering store/add_to_cart
+Completed in 31ms (View: 15, DB: 0) | 200 OK [http://127.0.0.1/store/add_to_cart/2]
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2009-08-27 16:48:35) [GET]
+  Parameters: {"id"=>"vata"}
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find Product with ID=vata):
+  app/controllers/store_controller.rb:7:in `add_to_cart'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (125.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (not_found)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2009-08-27 16:48:49) [GET]
+  Parameters: {"id"=>"vata"}
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find Product with ID=vata):
+  app/controllers/store_controller.rb:7:in `add_to_cart'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (47.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (not_found)
+
+
+Processing StoreController#index (for 94.78.241.244 at 2009-08-27 16:49:56) [GET]
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 78ms (View: 62, DB: 0) | 200 OK [http://kycok.kraslan.ru/store]
+
+
+Processing StoreController#index (for 94.78.241.244 at 2009-08-27 16:50:01) [POST]
+  Parameters: {"authenticity_token"=>"XnUFJc1xls9cbfcds0l3BhVFY4Vmg6fhCvggR7C2Q3s="}
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 94ms (View: 78, DB: 0) | 200 OK [http://kycok.kraslan.ru/store]
+
+
+Processing StoreController#add_to_cart (for 94.78.241.244 at 2009-08-27 16:50:03) [POST]
+  Parameters: {"authenticity_token"=>"XnUFJc1xls9cbfcds0l3BhVFY4Vmg6fhCvggR7C2Q3s=", "id"=>"2"}
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+
+NoMethodError (undefined method `product' for #<Product:0x3b45df4>):
+  app/models/cart.rb:9:in `add_product'
+  app/models/cart.rb:9:in `each'
+  app/models/cart.rb:9:in `find'
+  app/models/cart.rb:9:in `add_product'
+  app/controllers/store_controller.rb:9:in `add_to_cart'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (62.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StoreController#add_to_cart (for 94.78.241.244 at 2009-08-27 16:50:32) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+
+NoMethodError (undefined method `product' for #<Product:0x348b34c>):
+  app/models/cart.rb:9:in `add_product'
+  app/models/cart.rb:9:in `each'
+  app/models/cart.rb:9:in `find'
+  app/models/cart.rb:9:in `add_product'
+  app/controllers/store_controller.rb:9:in `add_to_cart'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (125.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StoreController#add_to_cart (for 94.78.241.244 at 2009-08-27 16:51:21) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+
+NoMethodError (undefined method `product' for #<Product:0x3b023d8>):
+  app/models/cart.rb:9:in `add_product'
+  app/models/cart.rb:9:in `each'
+  app/models/cart.rb:9:in `find'
+  app/models/cart.rb:9:in `add_product'
+  app/controllers/store_controller.rb:9:in `add_to_cart'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (47.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StoreController#add_to_cart (for 94.78.241.244 at 2009-08-27 16:51:23) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+
+NoMethodError (undefined method `product' for #<Product:0x33ea730>):
+  app/models/cart.rb:9:in `add_product'
+  app/models/cart.rb:9:in `each'
+  app/models/cart.rb:9:in `find'
+  app/models/cart.rb:9:in `add_product'
+  app/controllers/store_controller.rb:9:in `add_to_cart'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (110.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StoreController#add_to_cart (for 94.78.241.244 at 2009-08-27 16:51:25) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+
+NoMethodError (undefined method `product' for #<Product:0x3ad8ec0>):
+  app/models/cart.rb:9:in `add_product'
+  app/models/cart.rb:9:in `each'
+  app/models/cart.rb:9:in `find'
+  app/models/cart.rb:9:in `add_product'
+  app/controllers/store_controller.rb:9:in `add_to_cart'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (47.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StoreController#add_to_cart (for 94.78.241.244 at 2009-08-27 16:51:26) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+
+NoMethodError (undefined method `product' for #<Product:0x33b95b8>):
+  app/models/cart.rb:9:in `add_product'
+  app/models/cart.rb:9:in `each'
+  app/models/cart.rb:9:in `find'
+  app/models/cart.rb:9:in `add_product'
+  app/controllers/store_controller.rb:9:in `add_to_cart'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (109.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StoreController#add_to_cart (for 94.78.241.244 at 2009-08-27 16:51:27) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+
+NoMethodError (undefined method `product' for #<Product:0x3a91ad4>):
+  app/models/cart.rb:9:in `add_product'
+  app/models/cart.rb:9:in `each'
+  app/models/cart.rb:9:in `find'
+  app/models/cart.rb:9:in `add_product'
+  app/controllers/store_controller.rb:9:in `add_to_cart'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (47.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StoreController#add_to_cart (for 94.78.241.244 at 2009-08-27 16:51:28) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+
+NoMethodError (undefined method `product' for #<Product:0x336a954>):
+  app/models/cart.rb:9:in `add_product'
+  app/models/cart.rb:9:in `each'
+  app/models/cart.rb:9:in `find'
+  app/models/cart.rb:9:in `add_product'
+  app/controllers/store_controller.rb:9:in `add_to_cart'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (109.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StoreController#add_to_cart (for 94.78.241.244 at 2009-08-27 16:51:29) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mSQL (156.0ms)[0m   [0;1mDELETE FROM sessions[0m
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering template within layouts/store
+Rendering store/add_to_cart
+Completed in 78ms (View: 16, DB: 0) | 200 OK [http://kycok.kraslan.ru/store/add_to_cart/2]
+
+
+Processing StoreController#add_to_cart (for 94.78.241.244 at 2009-08-27 16:51:40) [GET]
+  Parameters: {"id"=>"vata"}
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find Product with ID=vata):
+  app/controllers/store_controller.rb:7:in `add_to_cart'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (47.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (not_found)
+
+
+Processing StoreController#add_to_cart (for 94.78.241.244 at 2009-08-27 16:51:46) [GET]
+  Parameters: {"id"=>"vata"}
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find Product with ID=vata):
+  app/controllers/store_controller.rb:7:in `add_to_cart'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (47.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (not_found)
+
+
+Processing StoreController#add_to_cart (for 94.78.241.244 at 2009-08-27 16:51:50) [GET]
+
+ActiveRecord::RecordNotFound (Couldn't find Product without an ID):
+  app/controllers/store_controller.rb:7:in `add_to_cart'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (47.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (not_found)
+
+
+Processing StoreController#add_to_cart (for 94.78.241.244 at 2009-08-27 16:51:55) [GET]
+
+ActiveRecord::RecordNotFound (Couldn't find Product without an ID):
+  app/controllers/store_controller.rb:7:in `add_to_cart'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (109.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (not_found)
+
+
+Processing StoreController#index (for 94.78.241.244 at 2009-08-27 16:52:01) [GET]
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 47ms (View: 31, DB: 0) | 200 OK [http://kycok.kraslan.ru/store/]
+
+
+Processing StoreController#index (for 94.78.241.244 at 2009-08-27 16:52:02) [POST]
+  Parameters: {"authenticity_token"=>"xCloX+V/dOCBkbnOhFGQdEgQJd8fXLCaaT7CPUtZ9l4="}
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 47ms (View: 31, DB: 0) | 200 OK [http://kycok.kraslan.ru/store]
+
+
+Processing StoreController#add_to_cart (for 94.78.241.244 at 2009-08-27 16:52:04) [POST]
+  Parameters: {"authenticity_token"=>"xCloX+V/dOCBkbnOhFGQdEgQJd8fXLCaaT7CPUtZ9l4=", "id"=>"3"}
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 3) [0m
+Rendering template within layouts/store
+Rendering store/add_to_cart
+Completed in 32ms (View: 0, DB: 0) | 200 OK [http://kycok.kraslan.ru/store/add_to_cart/3]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2009-08-27 16:52:15) [GET]
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 31ms (View: 31, DB: 0) | 200 OK [http://127.0.0.1/store/]
+
+
+Processing StoreController#add_to_cart (for 94.78.241.244 at 2009-08-27 17:02:01) [GET]
+  Parameters: {"id"=>"vata"}
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find Product with ID=vata):
+  app/controllers/store_controller.rb:7:in `add_to_cart'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (62.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (not_found)
+
+
+Processing StoreController#add_to_cart (for 94.78.241.244 at 2009-08-27 18:02:49) [GET]
+  Parameters: {"id"=>"vata"}
+  [4;36;1mProduct Load (31.0ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find Product with ID=vata):
+  app/controllers/store_controller.rb:7:in `add_to_cart'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (47.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (not_found)
+
+
+Processing StoreController#add_to_cart (for 94.78.241.244 at 2009-08-27 20:50:56) [GET]
+  Parameters: {"id"=>"vata"}
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find Product with ID=vata):
+  app/controllers/store_controller.rb:7:in `add_to_cart'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (47.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (not_found)
+
+
+Processing StoreController#index (for 94.78.241.244 at 2009-08-27 20:51:02) [GET]
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 156ms (View: 140, DB: 0) | 200 OK [http://kycok.kraslan.ru/store/]
+
+
+Processing StoreController#index (for 94.78.241.244 at 2009-08-28 23:55:58) [GET]
+  [4;36;1mProduct Load (15.0ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 313ms (View: 282, DB: 15) | 200 OK [http://kycok.kraslan.ru/store/]
+
+
+Processing StoreController#add_to_cart (for 94.78.241.244 at 2009-08-28 23:56:05) [POST]
+  Parameters: {"authenticity_token"=>"xCloX+V/dOCBkbnOhFGQdEgQJd8fXLCaaT7CPUtZ9l4=", "id"=>"2"}
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering template within layouts/store
+Rendering store/add_to_cart
+Completed in 94ms (View: 16, DB: 0) | 200 OK [http://kycok.kraslan.ru/store/add_to_cart/2]
+
+
+Processing StoreController#add_to_cart (for 94.78.241.244 at 2009-08-28 23:56:10) [POST]
+  Parameters: {"authenticity_token"=>"xCloX+V/dOCBkbnOhFGQdEgQJd8fXLCaaT7CPUtZ9l4=", "id"=>"2"}
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering template within layouts/store
+Rendering store/add_to_cart
+Completed in 46ms (View: 15, DB: 0) | 200 OK [http://kycok.kraslan.ru/store/add_to_cart/2]
+
+
+Processing StoreController#index (for 94.78.241.244 at 2009-08-28 23:56:17) [GET]
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 47ms (View: 31, DB: 0) | 200 OK [http://kycok.kraslan.ru/store/]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2009-09-01 16:19:04) [GET]
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 516ms (View: 500, DB: 0) | 200 OK [http://127.0.0.1/store/]
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2009-09-01 16:19:08) [POST]
+  Parameters: {"authenticity_token"=>"yxAI+MoQkTkdYDJFoWmpqz7RAAVqxQcVmn+O68+VwWY=", "id"=>"2"}
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering template within layouts/store
+Rendering store/add_to_cart
+Completed in 110ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/store/add_to_cart/2]
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2009-09-01 16:19:12) [GET]
+  Parameters: {"id"=>"vata"}
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find Product with ID=vata):
+  app/controllers/store_controller.rb:7:in `add_to_cart'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (46.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (not_found)
+
+
+Processing StoreController#add_to_cart (for 94.78.241.244 at 2009-09-01 16:19:21) [POST]
+  Parameters: {"authenticity_token"=>"xCloX+V/dOCBkbnOhFGQdEgQJd8fXLCaaT7CPUtZ9l4=", "id"=>"2"}
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering template within layouts/store
+Rendering store/add_to_cart
+Completed in 62ms (View: 31, DB: 0) | 200 OK [http://kycok.kraslan.ru/store/add_to_cart/2]
+
+
+Processing StoreController#add_to_cart (for 94.78.241.244 at 2009-09-01 16:19:25) [GET]
+  Parameters: {"id"=>"vata"}
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find Product with ID=vata):
+  app/controllers/store_controller.rb:7:in `add_to_cart'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (125.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (not_found)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2009-09-01 16:19:32) [GET]
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 47ms (View: 16, DB: 16) | 200 OK [http://127.0.0.1/store/]
+
+
+Processing StoreController#add_to_cart (for 94.78.241.244 at 2009-09-01 16:28:32) [GET]
+  Parameters: {"id"=>"vata"}
+  [4;36;1mProduct Load (15.0ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 0) [0m
+Attempt to access invalid product vata
+Redirected to http://kycok.kraslan.ru:3001/store
+Completed in 31ms (DB: 15) | 302 Found [http://kycok.kraslan.ru/store/add_to_cart/vata]
+
+
+Processing StoreController#index (for 94.78.241.244 at 2009-09-01 16:28:33) [GET]
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 47ms (View: 32, DB: 0) | 200 OK [http://kycok.kraslan.ru/store]
+
+
+Processing StoreController#add_to_cart (for 94.78.241.244 at 2009-09-01 16:28:37) [POST]
+  Parameters: {"authenticity_token"=>"xCloX+V/dOCBkbnOhFGQdEgQJd8fXLCaaT7CPUtZ9l4=", "id"=>"2"}
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering template within layouts/store
+Rendering store/add_to_cart
+Completed in 93ms (View: 62, DB: 0) | 200 OK [http://kycok.kraslan.ru/store/add_to_cart/2]
+
+
+Processing StoreController#add_to_cart (for 94.78.241.244 at 2009-09-01 16:28:42) [GET]
+  Parameters: {"id"=>"vata"}
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 0) [0m
+Attempt to access invalid product vata
+Redirected to http://kycok.kraslan.ru:3001/store
+Completed in 16ms (DB: 0) | 302 Found [http://kycok.kraslan.ru/store/add_to_cart/vata]
+
+
+Processing StoreController#index (for 94.78.241.244 at 2009-09-01 16:28:42) [GET]
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 47ms (View: 32, DB: 0) | 200 OK [http://kycok.kraslan.ru/store]
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2009-09-01 16:28:50) [GET]
+  Parameters: {"id"=>"vata"}
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 0) [0m
+Attempt to access invalid product vata
+Redirected to http://127.0.0.1:3001/store
+Completed in 31ms (DB: 0) | 302 Found [http://127.0.0.1/store/add_to_cart/vata]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2009-09-01 16:28:51) [GET]
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 62ms (View: 47, DB: 0) | 200 OK [http://127.0.0.1/store]
+
+
+Processing StoreController#add_to_cart (for 94.78.241.244 at 2009-09-01 16:49:13) [POST]
+  Parameters: {"authenticity_token"=>"xCloX+V/dOCBkbnOhFGQdEgQJd8fXLCaaT7CPUtZ9l4=", "id"=>"2"}
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering template within layouts/store
+Rendering store/add_to_cart
+Completed in 47ms (View: 16, DB: 0) | 200 OK [http://kycok.kraslan.ru/store/add_to_cart/2]
+
+
+Processing StoreController#add_to_cart (for 94.78.241.244 at 2009-09-01 16:49:17) [GET]
+  Parameters: {"id"=>"vata"}
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 0) [0m
+Attempt to access invalid product vata
+Redirected to http://kycok.kraslan.ru:3001/store
+Completed in 94ms (DB: 0) | 302 Found [http://kycok.kraslan.ru/store/add_to_cart/vata]
+
+
+Processing StoreController#index (for 94.78.241.244 at 2009-09-01 16:49:17) [GET]
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 47ms (View: 31, DB: 0) | 200 OK [http://kycok.kraslan.ru/store]
+
+
+Processing StoreController#add_to_cart (for 94.78.241.244 at 2009-09-01 16:50:53) [POST]
+  Parameters: {"authenticity_token"=>"xCloX+V/dOCBkbnOhFGQdEgQJd8fXLCaaT7CPUtZ9l4=", "id"=>"2"}
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering template within layouts/store
+Rendering store/add_to_cart
+Completed in 47ms (View: 16, DB: 0) | 200 OK [http://kycok.kraslan.ru/store/add_to_cart/2]
+
+
+Processing StoreController#add_to_cart (for 94.78.241.244 at 2009-09-01 16:50:57) [GET]
+  Parameters: {"id"=>"vata"}
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 0) [0m
+Attempt to access invalid product vata
+Redirected to http://kycok.kraslan.ru:3001/store
+Completed in 31ms (DB: 0) | 302 Found [http://kycok.kraslan.ru/store/add_to_cart/vata]
+
+
+Processing StoreController#index (for 94.78.241.244 at 2009-09-01 16:50:58) [GET]
+  [4;36;1mProduct Load (15.0ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 47ms (View: 32, DB: 15) | 200 OK [http://kycok.kraslan.ru/store]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2009-09-01 16:57:53) [GET]
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 47ms (View: 31, DB: 0) | 200 OK [http://127.0.0.1/store]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2009-09-01 16:57:57) [GET]
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 47ms (View: 31, DB: 0) | 200 OK [http://127.0.0.1/store]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2009-09-01 16:58:01) [GET]
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 63ms (View: 47, DB: 0) | 200 OK [http://127.0.0.1/store]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2009-09-01 16:58:04) [GET]
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 63ms (View: 47, DB: 0) | 200 OK [http://127.0.0.1/store]
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2009-09-01 16:58:07) [POST]
+  Parameters: {"authenticity_token"=>"yxAI+MoQkTkdYDJFoWmpqz7RAAVqxQcVmn+O68+VwWY=", "id"=>"3"}
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 3) [0m
+Rendering template within layouts/store
+Rendering store/add_to_cart
+Completed in 32ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/store/add_to_cart/3]
+
+
+Processing StoreController#empty_cart (for 127.0.0.1 at 2009-09-01 16:58:11) [POST]
+  Parameters: {"authenticity_token"=>"yxAI+MoQkTkdYDJFoWmpqz7RAAVqxQcVmn+O68+VwWY="}
+
+ActionController::UnknownAction (No action responded to empty_cart. Actions: add_to_cart and index):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing StoreController#add_to_cart (for 94.78.241.244 at 2009-09-01 16:58:17) [POST]
+  Parameters: {"authenticity_token"=>"xCloX+V/dOCBkbnOhFGQdEgQJd8fXLCaaT7CPUtZ9l4=", "id"=>"3"}
+  [4;36;1mProduct Load (16.0ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 3) [0m
+Rendering template within layouts/store
+Rendering store/add_to_cart
+Completed in 31ms (View: 0, DB: 16) | 200 OK [http://kycok.kraslan.ru/store/add_to_cart/3]
+
+
+Processing StoreController#empty_cart (for 94.78.241.244 at 2009-09-01 16:58:20) [POST]
+  Parameters: {"authenticity_token"=>"xCloX+V/dOCBkbnOhFGQdEgQJd8fXLCaaT7CPUtZ9l4="}
+
+ActionController::UnknownAction (No action responded to empty_cart. Actions: add_to_cart and index):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing StoreController#empty_cart (for 127.0.0.1 at 2009-09-01 16:59:42) [GET]
+
+ActionController::UnknownAction (No action responded to empty_cart. Actions: add_to_cart and index):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing StoreController#empty_cart (for 127.0.0.1 at 2009-09-01 16:59:43) [GET]
+
+ActionController::UnknownAction (No action responded to empty_cart. Actions: add_to_cart and index):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing StoreController#empty_cart (for 94.78.241.244 at 2009-09-01 16:59:59) [POST]
+  Parameters: {"authenticity_token"=>"xCloX+V/dOCBkbnOhFGQdEgQJd8fXLCaaT7CPUtZ9l4="}
+
+ActionController::UnknownAction (No action responded to empty_cart. Actions: add_to_cart and index):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing StoreController#empty_cart (for 94.78.241.244 at 2009-09-01 17:00:18) [POST]
+  Parameters: {"authenticity_token"=>"xCloX+V/dOCBkbnOhFGQdEgQJd8fXLCaaT7CPUtZ9l4="}
+Redirected to http://kycok.kraslan.ru:3001/store
+Completed in 94ms (DB: 0) | 302 Found [http://kycok.kraslan.ru/store/empty_cart]
+
+
+Processing StoreController#index (for 94.78.241.244 at 2009-09-01 17:00:18) [GET]
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 32ms (View: 16, DB: 0) | 200 OK [http://kycok.kraslan.ru/store]
+
+
+Processing StoreController#add_to_cart (for 94.78.241.244 at 2009-09-01 17:00:23) [POST]
+  Parameters: {"authenticity_token"=>"xCloX+V/dOCBkbnOhFGQdEgQJd8fXLCaaT7CPUtZ9l4=", "id"=>"2"}
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering template within layouts/store
+Rendering store/add_to_cart
+Completed in 47ms (View: 16, DB: 0) | 200 OK [http://kycok.kraslan.ru/store/add_to_cart/2]
+
+
+Processing StoreController#empty_cart (for 94.78.241.244 at 2009-09-01 17:00:24) [POST]
+  Parameters: {"authenticity_token"=>"xCloX+V/dOCBkbnOhFGQdEgQJd8fXLCaaT7CPUtZ9l4="}
+Redirected to http://kycok.kraslan.ru:3001/store
+Completed in 15ms (DB: 0) | 302 Found [http://kycok.kraslan.ru/store/empty_cart]
+
+
+Processing StoreController#index (for 94.78.241.244 at 2009-09-01 17:00:25) [GET]
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 32ms (View: 16, DB: 0) | 200 OK [http://kycok.kraslan.ru/store]
+
+
+Processing StoreController#index (for 94.78.241.244 at 2009-09-01 17:00:27) [GET]
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 47ms (View: 31, DB: 0) | 200 OK [http://kycok.kraslan.ru/store]
+
+
+Processing StoreController#index (for 94.78.241.244 at 2009-09-01 17:03:36) [POST]
+  Parameters: {"authenticity_token"=>"xCloX+V/dOCBkbnOhFGQdEgQJd8fXLCaaT7CPUtZ9l4="}
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 93ms (View: 78, DB: 0) | 200 OK [http://kycok.kraslan.ru/store]
+
+
+Processing StoreController#add_to_cart (for 94.78.241.244 at 2009-09-01 17:03:40) [POST]
+  Parameters: {"authenticity_token"=>"xCloX+V/dOCBkbnOhFGQdEgQJd8fXLCaaT7CPUtZ9l4=", "id"=>"2"}
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering template within layouts/store
+Rendering store/add_to_cart
+Completed in 47ms (View: 0, DB: 0) | 200 OK [http://kycok.kraslan.ru/store/add_to_cart/2]
+
+
+Processing StoreController#empty_cart (for 94.78.241.244 at 2009-09-01 17:03:42) [POST]
+  Parameters: {"authenticity_token"=>"xCloX+V/dOCBkbnOhFGQdEgQJd8fXLCaaT7CPUtZ9l4="}
+Redirected to http://kycok.kraslan.ru:3001/store
+Completed in 32ms (DB: 0) | 302 Found [http://kycok.kraslan.ru/store/empty_cart]
+
+
+Processing StoreController#index (for 94.78.241.244 at 2009-09-01 17:03:43) [GET]
+  [4;35;1mProduct Load (16.0ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 32ms (View: 16, DB: 16) | 200 OK [http://kycok.kraslan.ru/store]
+
+
+Processing StoreController#empty_cart (for 127.0.0.1 at 2009-09-01 17:03:51) [GET]
+Redirected to http://127.0.0.1:3001/store
+Completed in 16ms (DB: 0) | 302 Found [http://127.0.0.1/store/empty_cart]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2009-09-01 17:03:51) [GET]
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 47ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/store]
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2009-09-01 17:07:01) [POST]
+  Parameters: {"authenticity_token"=>"yxAI+MoQkTkdYDJFoWmpqz7RAAVqxQcVmn+O68+VwWY=", "id"=>"2"}
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering template within layouts/store
+Rendering store/add_to_cart
+
+ActionView::TemplateError (undefined method `total_price' for #<Cart:0x2dd16c8>) on line #13 of app/views/store/add_to_cart.html.erb:
+10: 		<% end %>
+11: 		<tr class="total-line">
+12: 			<td colspan="2">Total</td>
+13: 			<td class="total-cell"><%= number_to_currency(@cart.total_price) %></td>
+14: 		</tr>
+15: 	</table>
+16: 
+
+    app/views/store/add_to_cart.html.erb:13
+    -e:2:in `load'
+    -e:2
+
+Rendered rescues/_trace (63.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2009-09-01 17:07:05) [GET]
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 47ms (View: 31, DB: 0) | 200 OK [http://127.0.0.1/store]
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2009-09-01 17:08:06) [POST]
+  Parameters: {"authenticity_token"=>"yxAI+MoQkTkdYDJFoWmpqz7RAAVqxQcVmn+O68+VwWY=", "id"=>"2"}
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering template within layouts/store
+Rendering store/add_to_cart
+Completed in 47ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/store/add_to_cart/2]
+
+
+Processing StoreController#empty_cart (for 127.0.0.1 at 2009-09-01 17:08:11) [POST]
+  Parameters: {"authenticity_token"=>"yxAI+MoQkTkdYDJFoWmpqz7RAAVqxQcVmn+O68+VwWY="}
+Redirected to http://127.0.0.1:3001/store
+Completed in 15ms (DB: 0) | 302 Found [http://127.0.0.1/store/empty_cart]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2009-09-01 17:08:11) [GET]
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 47ms (View: 31, DB: 0) | 200 OK [http://127.0.0.1/store]
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2009-09-01 17:08:57) [POST]
+  Parameters: {"authenticity_token"=>"yxAI+MoQkTkdYDJFoWmpqz7RAAVqxQcVmn+O68+VwWY=", "id"=>"2"}
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering template within layouts/store
+Rendering store/add_to_cart
+Completed in 62ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/store/add_to_cart/2]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2009-09-01 17:09:18) [GET]
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 63ms (View: 47, DB: 0) | 200 OK [http://127.0.0.1/store/]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2009-09-01 17:09:21) [GET]
+  [4;35;1mProduct Load (16.0ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 47ms (View: 31, DB: 16) | 200 OK [http://127.0.0.1/store/]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2009-09-01 17:09:21) [GET]
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 110ms (View: 94, DB: 0) | 200 OK [http://127.0.0.1/store]
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2009-09-01 17:09:27) [POST]
+  Parameters: {"authenticity_token"=>"yxAI+MoQkTkdYDJFoWmpqz7RAAVqxQcVmn+O68+VwWY=", "id"=>"3"}
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 3) [0m
+Rendering template within layouts/store
+Rendering store/add_to_cart
+Completed in 46ms (View: 15, DB: 0) | 200 OK [http://127.0.0.1/store/add_to_cart/3]
+
+
+Processing StoreController#empty_cart (for 127.0.0.1 at 2009-09-01 17:09:30) [POST]
+  Parameters: {"authenticity_token"=>"yxAI+MoQkTkdYDJFoWmpqz7RAAVqxQcVmn+O68+VwWY="}
+Redirected to http://127.0.0.1:3001/store
+Completed in 15ms (DB: 0) | 302 Found [http://127.0.0.1/store/empty_cart]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2009-09-01 17:09:30) [GET]
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/store]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2009-09-01 17:09:32) [GET]
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 47ms (View: 31, DB: 0) | 200 OK [http://127.0.0.1/store]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2009-09-01 17:43:44) [GET]
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.+):
+  app/controllers/store_controller.rb:6:in `index'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (109.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2009-09-01 17:44:16) [GET]
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.+):
+  app/controllers/store_controller.rb:6:in `index'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (47.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2009-09-01 17:44:18) [GET]
+  [4;36;1mProduct Load (16.0ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.+):
+  app/controllers/store_controller.rb:6:in `index'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (109.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2009-09-01 17:44:19) [GET]
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.+):
+  app/controllers/store_controller.rb:6:in `index'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (47.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2009-09-01 17:44:59) [GET]
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.+):
+  app/controllers/store_controller.rb:6:in `index'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (109.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2009-09-01 17:45:00) [GET]
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.+):
+  app/controllers/store_controller.rb:6:in `index'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (47.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2009-09-01 17:46:04) [GET]
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.+):
+  app/controllers/store_controller.rb:6:in `index'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (47.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2009-09-01 17:46:05) [GET]
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.+):
+  app/controllers/store_controller.rb:6:in `index'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (47.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2009-09-01 17:46:06) [GET]
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.+):
+  app/controllers/store_controller.rb:6:in `index'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (47.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2009-09-01 17:46:07) [GET]
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.+):
+  app/controllers/store_controller.rb:6:in `index'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (47.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2009-09-01 17:46:08) [GET]
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.+):
+  app/controllers/store_controller.rb:6:in `index'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (47.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2009-09-01 17:46:09) [GET]
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.+):
+  app/controllers/store_controller.rb:6:in `index'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (110.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2009-09-01 17:46:10) [GET]
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.+):
+  app/controllers/store_controller.rb:6:in `index'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (31.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2009-09-01 17:46:11) [GET]
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.+):
+  app/controllers/store_controller.rb:6:in `index'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (109.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2009-09-01 17:46:12) [GET]
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.+):
+  app/controllers/store_controller.rb:6:in `index'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (47.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2009-09-01 17:46:13) [GET]
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.+):
+  app/controllers/store_controller.rb:6:in `index'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (110.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2009-09-01 17:46:14) [GET]
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.+):
+  app/controllers/store_controller.rb:6:in `index'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (47.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2009-09-01 17:46:55) [GET]
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 47ms (View: 31, DB: 0) | 200 OK [http://127.0.0.1/store]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2009-09-01 17:47:00) [GET]
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 31ms (View: 15, DB: 0) | 200 OK [http://127.0.0.1/store]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2009-09-01 17:47:01) [GET]
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 31ms (View: 15, DB: 0) | 200 OK [http://127.0.0.1/store]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2009-09-01 17:47:02) [GET]
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 47ms (View: 32, DB: 0) | 200 OK [http://127.0.0.1/store]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2009-09-01 17:47:04) [GET]
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 32ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/store]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2009-09-01 17:49:04) [GET]
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+
+ActionView::TemplateError (undefined local variable or method `singular' for #<ActionView::Base:0x38c9a08>) on line #1 of app/views/store/index.html.erb:
+1: <%= pluralize(session[:counter], singular, plural = nil)   %>
+2: <h1>Your Pragmatic Cataanalog</h1>
+3: <% for product in @products -%>
+4: <div class="entry">
+
+    app/views/store/index.html.erb:1
+    -e:2:in `load'
+    -e:2
+
+Rendered rescues/_trace (125.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2009-09-01 17:53:16) [GET]
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 47ms (View: 31, DB: 0) | 200 OK [http://127.0.0.1/store]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2009-09-01 17:55:01) [GET]
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 47ms (View: 32, DB: 0) | 200 OK [http://127.0.0.1/store]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2009-09-01 17:55:03) [GET]
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 47ms (View: 31, DB: 0) | 200 OK [http://127.0.0.1/store]
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2009-09-01 17:55:14) [POST]
+  Parameters: {"authenticity_token"=>"yxAI+MoQkTkdYDJFoWmpqz7RAAVqxQcVmn+O68+VwWY=", "id"=>"2"}
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering template within layouts/store
+Rendering store/add_to_cart
+Completed in 62ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/store/add_to_cart/2]
+
+
+Processing StoreController#empty_cart (for 127.0.0.1 at 2009-09-01 17:55:15) [POST]
+  Parameters: {"authenticity_token"=>"yxAI+MoQkTkdYDJFoWmpqz7RAAVqxQcVmn+O68+VwWY="}
+Redirected to http://127.0.0.1:3001/store
+Completed in 32ms (DB: 0) | 302 Found [http://127.0.0.1/store/empty_cart]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2009-09-01 17:55:15) [GET]
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 47ms (View: 32, DB: 0) | 200 OK [http://127.0.0.1/store]
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2009-09-01 17:56:20) [POST]
+  Parameters: {"authenticity_token"=>"yxAI+MoQkTkdYDJFoWmpqz7RAAVqxQcVmn+O68+VwWY=", "id"=>"2"}
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering template within layouts/store
+Rendering store/add_to_cart
+Completed in 62ms (View: 15, DB: 0) | 200 OK [http://127.0.0.1/store/add_to_cart/2]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2009-09-01 17:56:37) [GET]
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 46ms (View: 15, DB: 0) | 200 OK [http://127.0.0.1/store/]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2009-09-01 18:00:39) [GET]
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 47ms (View: 15, DB: 0) | 200 OK [http://127.0.0.1/store/]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2009-09-01 18:00:41) [GET]
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 109ms (View: 31, DB: 0) | 200 OK [http://127.0.0.1/store/]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2009-09-01 18:00:41) [GET]
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 47ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/store/]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2009-09-01 18:00:42) [GET]
+  [4;35;1mProduct Load (0.0ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 63ms (View: 32, DB: 0) | 200 OK [http://127.0.0.1/store/]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2009-09-01 18:00:43) [GET]
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 46ms (View: 15, DB: 0) | 200 OK [http://127.0.0.1/store/]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2009-09-01 18:03:57) [GET]
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 484ms (View: 47, DB: 0) | 200 OK [http://127.0.0.1/store/]

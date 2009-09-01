@@ -1,3 +1,15 @@
+/* Styles for the cart in the main page */
+.cart-title {
+font: 120% bold;
+}
+.item-price, .total-line {
+text-align: right;
+}
+.total-line .total-cell {
+font-weight: bold;
+border-top: 1px solid #595 ;
+}
+
 /* Styles for main page */
 #store .entry form, #store .entry form div {
 display: inline;
@@ -12,6 +24,15 @@ font: small-caps 40px/40px "Times New Roman", serif;
 color: #282 ;
 text-align: center;
 }
+
+#notice {
+border: 2px solid red;
+padding: 1em;
+margin-bottom: 2em;
+background-color: #f0f0f0 ;
+font: bold smaller sans-serif;
+}
+
 #banner img {
 float: left;
 }
