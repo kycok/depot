@@ -1,4 +1,4 @@
-<!--<% unless cart.items.empty? %>-->
+<% unless cart.items.empty? %>
 	<div class="cart-title" >Your Cart</div>
 		<table>
 		<%= render(:partial => "cart_item" , :collection => cart.items) %>
@@ -13,4 +13,4 @@
 			<%= submit_tag "Empty cart" %>
 	<% end %>
 
-<!--<% end %>-->
+<% end %>

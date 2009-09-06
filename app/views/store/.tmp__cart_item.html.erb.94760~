@@ -1,0 +1,18 @@
+<% if cart_item == @current_item %>
+	<tr id="current_item">
+<% else %>
+	<tr>
+<% end %>
+		<td><%= cart_item.quantity %>&times;</td>
+		<td><%=h cart_item.title %></td>
+		<td class="item-price"><%= number_to_currency(cart_item.price) %></td>
+		<td>
+        <% if cart_item.quantity > 1 %>
+			<%= link_to_remote "subtract", {:url => { :action => :remove_from_cart , :id => cart_item.product}},
+				:href => url_for(:action => :remove_from_cart, :id => cart_item.product),:method => :post %>
+		<% else %>
+		<%= link_to_remote "remove", {:url => { :action => :remove_from_cart , :id => cart_item.product}},
+				:href => url_for(:action => :remove_from_cart, :id => cart_item.product),:method => :post %>
+		<%end%>
+		</td>
+	</tr>
